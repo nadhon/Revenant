@@ -1,5 +1,5 @@
 /target:library
-/out:Temp/Unity.VSCode.Editor.dll
+/out:Temp/Unity.CollabProxy.Editor.dll
 /nowarn:0169
 /nowarn:0649
 /deterministic
@@ -260,6 +260,7 @@
 /define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_4_6
+/define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_WIN
 /define:PLATFORM_SUPPORTS_MONO
@@ -285,6 +286,7 @@
 /define:UNITY_5_4_OR_NEWER
 /define:UNITY_5_5_OR_NEWER
 /define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
 /define:UNITY_ASSERTIONS
 /define:UNITY_EDITOR
 /define:UNITY_EDITOR_64
@@ -293,10 +295,96 @@
 /define:UNITY_STANDALONE
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\AssemblyNameProvider.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\FileIO.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\GUIDGenerator.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\ProjectGeneration.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\ProjectGenerationFlag.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\VSCodeDiscovery.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\VSCodeScriptEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Assets\StringAssets.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Assets\UiConstants.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Common\ArrayContainer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Common\LocationAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Common\ScriptableObjectSingleton.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Common\SerializableDictionary.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Common\StringArrayContainer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\AdapterListView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\AlertBox.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\BetterTextField.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeEntryGroup.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeListElements\BaseChangeListElement.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeListElements\ChangeListElement.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeListElements\ConflictedChangeListElement.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeListElements\HistoryChangeListElement.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangeListElements\ToggleableChangeListElement.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ChangesGroupHeader.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ErrorPageView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\HistoryEntryComponent.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\IconButton.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\IconTextButton.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ListNotice.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\Menus\FloatingDialogue.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\Menus\FloatingMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\Menus\FloatingMenuItem.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\PageComponent.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\Paginator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\ProgressView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\SearchBar.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\TabPageComponent.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\TabView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\TextButton.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\TopBar.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Api\ISourceControlProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\ChangesModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Enums\ProjectStatus.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\HistoryModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IChangesModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IHistoryModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IMainModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IStartModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\MainModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Providers\Collab.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\StartModel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\ChangeEntry.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\ErrorInfo.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\HistoryEntry.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\IChangeEntry.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\IChangeEntryData.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\IErrorInfo.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\IHistoryEntry.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\IProgressInfo.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Structures\ProgressInfo.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\ChangesPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\HistoryPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IChangesPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IHistoryPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IMainPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IStartPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\MainPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\StartPresenter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Properties\AssemblyInfo.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Settings\CollabSetting.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Settings\CollabSettings.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Settings\CollabSettingsManager.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Settings\CollabSettingsProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\UserInterface\Bootstrap.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\UserInterface\CollaborateWindow.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\UserInterface\ToolbarButton.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\UserInterface\WindowCache.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\ExtensionMethods.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\MenuUtilities.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\OpenLinksUtility.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\StringUtility.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\Threading.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\TimeStamp.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\IAdapter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\IAdapterObserver.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\ListAdapters\BaseListAdapter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\ListAdapters\ConflictedChangeListAdapter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\ListAdapters\HistoryEntryChangeListAdapter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\ListAdapters\ToggleableChangeListAdapter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\ChangesTabPageView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\HistoryTabPageView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\IChangesView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\IHistoryView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\IMainView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\IStartView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\IView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\MainPageView.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\StartPageView.cs"

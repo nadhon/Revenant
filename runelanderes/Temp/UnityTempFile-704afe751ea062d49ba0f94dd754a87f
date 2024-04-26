@@ -1,15 +1,13 @@
 /target:library
-/out:Temp/Unity.Mathematics.Editor.dll
+/out:Temp/Unity.Rider.Editor.dll
 /nowarn:0169
 /nowarn:0649
-/unsafe
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:Library/ScriptAssemblies/Unity.Mathematics.dll
 /reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 /reference:Library/ScriptAssemblies/UnityEditor.UI.dll
 /reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
@@ -262,10 +260,12 @@
 /define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_4_6
+/define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_WIN
 /define:PLATFORM_SUPPORTS_MONO
 /define:RENDER_SOFTWARE_CURSOR
+/define:TEST_FRAMEWORK
 /define:TRACE
 /define:UNITY_2017_1_OR_NEWER
 /define:UNITY_2017_2_OR_NEWER
@@ -287,6 +287,7 @@
 /define:UNITY_5_4_OR_NEWER
 /define:UNITY_5_5_OR_NEWER
 /define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
 /define:UNITY_ASSERTIONS
 /define:UNITY_EDITOR
 /define:UNITY_EDITOR_64
@@ -295,7 +296,26 @@
 /define:UNITY_STANDALONE
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\MatrixDrawer.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\PostNormalizedVectorDrawer.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\PrimitiveVectorDrawer.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\QuaternionDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\Discovery.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\EditorPluginInterop.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\LoggingLevel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\PluginSettings.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\PostProcessors\RiderAssetPostprocessor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\ProjectGeneration\FileIOProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\ProjectGeneration\GUIDProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\ProjectGeneration\ProjectGeneration.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\RiderInitializer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\RiderScriptEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\RiderScriptEditorData.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\CallbackData.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\CallbackInitializer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\RiderTestRunner.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\SyncTestRunCallback.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\SyncTestRunEventsHandler.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\TestEvent.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\UnitTesting\TestsCallback.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\Util\CommandLineParser.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\Util\FileSystemUtil.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\Util\LibcNativeInterop.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\Util\RiderMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.rider@1.2.1\Rider\Editor\Util\UnityUtils.cs"

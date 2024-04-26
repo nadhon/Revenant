@@ -1,5 +1,5 @@
 /target:library
-/out:Temp/UnityEditor.UI.dll
+/out:Temp/Unity.VSCode.Editor.dll
 /nowarn:0169
 /nowarn:0649
 /deterministic
@@ -8,10 +8,15 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 /reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Users/nadho/OneDrive/Documentos/GitHub/Nova pasta/Revenant/runelanderes/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
+/reference:"C:/Users/nadho/OneDrive/Documentos/GitHub/Nova pasta/Revenant/runelanderes/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -255,9 +260,7 @@
 /define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_4_6
-/define:PACKAGE_ANIMATION
-/define:PACKAGE_PHYSICS
-/define:PACKAGE_PHYSICS2D
+/define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_WIN
 /define:PLATFORM_SUPPORTS_MONO
@@ -283,6 +286,7 @@
 /define:UNITY_5_4_OR_NEWER
 /define:UNITY_5_5_OR_NEWER
 /define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
 /define:UNITY_ASSERTIONS
 /define:UNITY_EDITOR
 /define:UNITY_EDITOR_64
@@ -291,40 +295,10 @@
 /define:UNITY_STANDALONE
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\EventSystemEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\EventTriggerEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\Physics2DRaycasterEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\EventSystem\PhysicsRaycasterEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\Properties\AssemblyInfo.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\AspectRatioFitterEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ButtonEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\CanvasScalerEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ContentSizeFitterEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\DropdownEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\GraphicEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\GridLayoutGroupEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\HorizontalOrVerticalLayoutGroupEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ImageEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\InputFieldEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\InterceptedEventsPreview.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\LayoutElementEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\LayoutPropertiesPreview.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\MaskEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\MenuOptions.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PrefabLayoutRebuilder.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\AnimationTriggersDrawer.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\ColorBlockDrawer.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\DropdownOptionListDrawer.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\FontDataDrawer.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\NavigationDrawer.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\PropertyDrawers\SpriteStateDrawer.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\RawImageEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\RectMask2DEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ScrollRectEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ScrollbarEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SelectableEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SelfControllerEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SliderEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\SpriteDrawUtility.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\TextEditor.cs"
-"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Editor\UI\ToggleEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\AssemblyNameProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\FileIO.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\GUIDGenerator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\ProjectGeneration.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\ProjectGeneration\ProjectGenerationFlag.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\VSCodeDiscovery.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.ide.vscode@1.2.3\Editor\VSCodeScriptEditor.cs"

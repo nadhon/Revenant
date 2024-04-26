@@ -1,5 +1,5 @@
 /target:library
-/out:Temp/Unity.InternalAPIEditorBridge.001.dll
+/out:Temp/Unity.TextMeshPro.Editor.dll
 /nowarn:0169
 /nowarn:0649
 /deterministic
@@ -8,7 +8,7 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 /reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 /reference:Library/ScriptAssemblies/UnityEditor.UI.dll
 /reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
@@ -261,6 +261,7 @@
 /define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_4_6
+/define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_WIN
 /define:PLATFORM_SUPPORTS_MONO
@@ -286,6 +287,7 @@
 /define:UNITY_5_4_OR_NEWER
 /define:UNITY_5_5_OR_NEWER
 /define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
 /define:UNITY_ASSERTIONS
 /define:UNITY_EDITOR
 /define:UNITY_EDITOR_64
@@ -294,5 +296,50 @@
 /define:UNITY_STANDALONE
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.common@3.0.1\Editor\InternalBridge\AssemblyInfo.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.common@3.0.1\Editor\InternalBridge\InternalEditorBridge.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\DropdownOptionListDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\GlyphInfoDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\GlyphMetricsPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\GlyphRectPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_BaseEditorPanel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_BaseShaderGUI.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_BitmapShaderGUI.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_CharacterPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_ColorGradientAssetMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_ColorGradientEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_DropdownEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_EditorCoroutine.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_EditorPanel.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_EditorPanelUI.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_EditorUtility.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_FontAssetEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_FontAsset_CreationMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_GlyphPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_InputFieldEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_MeshRendererEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_PackageUtilities.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_PostBuildProcessHandler.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_ProjectTextSettings.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_ResourcesLoader.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SDFShaderGUI.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SerializedPropertyHolder.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SettingsEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SpriteAssetEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SpriteAssetImporter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SpriteAssetMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SpriteCharacterPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SpriteGlyphPropertyDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_StyleAssetMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_StyleSheetEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SubMeshUI_Editor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_SubMesh_Editor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_TextAlignmentDrawer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMP_UIStyleManager.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_ContextMenus.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_CreateObjectMenu.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_EditorShaderUtilities.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_FontAssetCreatorWindow.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_FontPlugin.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_SortingLayerHelper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_TextContainerEditor.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Editor\TMPro_TexturePostProcessor.cs"

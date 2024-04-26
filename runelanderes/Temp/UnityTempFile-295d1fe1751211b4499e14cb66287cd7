@@ -1,19 +1,13 @@
 /target:library
-/out:Temp/Unity.2D.Animation.Runtime.dll
+/out:Temp/UnityEngine.TestRunner.dll
 /nowarn:0169
 /nowarn:0649
-/unsafe
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
-/reference:Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
-/reference:Library/ScriptAssemblies/Unity.Mathematics.dll
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
@@ -261,6 +255,7 @@
 /define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_STANDARD_2_0
+/define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_WIN
 /define:PLATFORM_SUPPORTS_MONO
@@ -286,6 +281,7 @@
 /define:UNITY_5_4_OR_NEWER
 /define:UNITY_5_5_OR_NEWER
 /define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
 /define:UNITY_ASSERTIONS
 /define:UNITY_EDITOR
 /define:UNITY_EDITOR_64
@@ -294,21 +290,111 @@
 /define:UNITY_STANDALONE
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\AssemblyInfo.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\Components.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\DeformSpriteSystem.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\NativeArrayHelper.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\NativeCustomSlice.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\PrepareSkinningSystem.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteLib\SpriteLibrary.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteLib\SpriteLibraryAsset.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteLib\SpriteResolver.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteSkin.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteSkinBatch.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteSkinComposite.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteSkinEntity.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteSkinManager.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\SpriteSkinUtility.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\TransformAccessJob.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\UpdateBoundsJob.cs"
-"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.2d.animation@4.2.6\Runtime\UpdateBoundsSystem.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\AssemblyInfo.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\AllocatingGCMemoryConstraint.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\ConstraintsExtensions.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\InvalidSignatureException.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\Is.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\LogAssert.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\LogScope\ILogScope.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\LogScope\LogEvent.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\LogScope\LogMatch.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\LogScope\LogScope.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\UnexpectedLogMessageException.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\UnhandledLogMessageException.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Assertions\UnityTestTimeoutException.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\ActionDelegator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\ConditionalIgnoreAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestMustExpectAllLogsAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityCombinatorialStrategy.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityPlatformAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnitySetUpAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityTearDownAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityTestAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\BaseDelegator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandState.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableApplyChangesToContextCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableRepeatedTestCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableRetryTestCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableSetUpTearDownCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableTestMethodCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\ImmediateEnumerableCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\OuterUnityTestActionCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\SetUpTearDownCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\TestActionCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Commands\TestCommandPcHelper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\ConstructDelegator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Filters\AssemblyNameFilter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Filters\CategoryFilterExtended.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\IAsyncTestAssemblyBuilder.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\IStateSerializer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\CompositeWorkItem.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\CoroutineTestWorkItem.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\DefaultTestWorkItem.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\FailCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\IEnumerableTestMethodCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\PlaymodeWorkItemFactory.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\RestoreTestContextAfterDomainReload.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\TestCommandBuilder.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityLogCheckDelegatingCommand.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestExecutionContext.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityWorkItem.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityWorkItemDataHolder.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\Runner\WorkItemFactory.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\TestExtensions.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\TestResultExtensions.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\NUnitExtensions\UnityTestAssemblyBuilder.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\Callbacks\PlayModeRunnerCallback.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\Callbacks\PlayerQuitHandler.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\Callbacks\RemoteTestResultSender.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\Callbacks\TestResultRenderer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\Callbacks\TestResultRendererCallback.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\ITestRunnerListener.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\Messages\IEditModeTestYieldInstruction.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\PlaymodeTestsController.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\PlaymodeTestsControllerSettings.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RemoteHelpers\IRemoteTestResultDataFactory.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RemoteHelpers\PlayerConnectionMessageIds.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestData.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultData.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultDataFactory.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultDataWithTestData.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\RuntimeTestRunnerFilter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\SynchronousFilter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\TestEnumeratorWrapper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\TestRunner\TestPlatform.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\AssemblyLoadProxy.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\AssemblyWrapper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyLoadProxy.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyWrapper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\PlayerTestAssemblyProvider.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AssemblyProvider\ScriptingRuntimeProxy.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\AttributeHelper.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\ColorEqualityComparer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\CoroutineRunner.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\FloatEqualityComparer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\IOuterUnityTestAction.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\IPostBuildCleanup.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\IPrebuildSceneSetup.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\ITestRunCallback.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\MonoBehaviourTest\IMonoBehaviourTest.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\MonoBehaviourTest\MonoBehaviourTest.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\PostBuildCleanupAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\PrebuildSceneSetupAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\StacktraceFilter.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\TestRunCallbackAttribute.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\TestRunCallbackListener.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Utils.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Vector2ComparerWithEqualsOperator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Vector2EqualityComparer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Vector3ComparerWithEqualsOperator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Vector3EqualityComparer.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Vector4ComparerWithEqualsOperator.cs"
+"C:\Users\nadho\OneDrive\Documentos\GitHub\Nova pasta\Revenant\runelanderes\Library\PackageCache\com.unity.test-framework@1.1.19\UnityEngine.TestRunner\Utils\Vector4EqualityComparer.cs"
