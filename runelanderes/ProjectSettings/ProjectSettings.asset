@@ -635,10 +635,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 32ecd794-db72-485a-9284-a3d26e224bcd
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: runelanderes
-  organizationId: paladino-guerreiro-de-rua
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
