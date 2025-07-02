@@ -3,8 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerPlatformer : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 8f;
-    [SerializeField] private float jumpForce = 16f;
+    [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private float jumpForce = 5f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
