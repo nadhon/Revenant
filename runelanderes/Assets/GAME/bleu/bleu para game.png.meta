@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 10a0ebcc860f2d345a220bf389b8632b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1286069125854406193
+    second: bleu para game_0
+  - first:
+      213: -779245743870450070
+    second: bleu para game_1
+  - first:
+      213: 2661423004758307777
+    second: bleu para game_2
+  - first:
+      213: -4804278376070419125
+    second: bleu para game_3
+  - first:
+      213: 7592116082075361032
+    second: bleu para game_4
+  - first:
+      213: -1131573268207324296
+    second: bleu para game_5
+  - first:
+      213: -4319539413248798622
+    second: bleu para game_6
+  - first:
+      213: -2854857571351990997
+    second: bleu para game_7
+  - first:
+      213: 6608489859881280908
+    second: bleu para game_8
+  - first:
+      213: -1103201781844860550
+    second: bleu para game_9
+  - first:
+      213: -7984193350872505183
+    second: bleu para game_10
+  - first:
+      213: -7777680054479727747
+    second: bleu para game_11
+  - first:
+      213: 4220853629060656164
+    second: bleu para game_12
+  - first:
+      213: -6800490158268965385
+    second: bleu para game_13
+  - first:
+      213: 1557748089676694065
+    second: bleu para game_14
+  - first:
+      213: -7457394928605628490
+    second: bleu para game_15
+  - first:
+      213: 8290134345507931781
+    second: bleu para game_16
+  - first:
+      213: 674878042230117895
+    second: bleu para game_17
+  - first:
+      213: 3004139014095764347
+    second: bleu para game_18
+  - first:
+      213: -332987587374667783
+    second: bleu para game_19
+  - first:
+      213: 6345580920522611282
+    second: bleu para game_20
+  - first:
+      213: -7816810874515121551
+    second: bleu para game_21
+  - first:
+      213: -2161993866356077476
+    second: bleu para game_22
+  - first:
+      213: -4863237501635722854
+    second: bleu para game_23
+  - first:
+      213: -7368904729426374783
+    second: bleu para game_24
+  - first:
+      213: -173116999984890958
+    second: bleu para game_25
+  - first:
+      213: 5157324516628986080
+    second: bleu para game_26
+  - first:
+      213: 8459834997064037593
+    second: bleu para game_27
+  - first:
+      213: 715643325365350381
+    second: bleu para game_28
+  - first:
+      213: -3820047880679823367
+    second: bleu para game_29
+  - first:
+      213: -3998015922660373833
+    second: bleu para game_30
+  - first:
+      213: -2012313874020055132
+    second: bleu para game_31
+  - first:
+      213: -7147685128756258186
+    second: bleu para game_32
+  - first:
+      213: 1932906258138441217
+    second: bleu para game_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bleu para game_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 916
+        width: 66
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9d9d4a1f6f62ee0800000000000000
+      internalID: -1286069125854406193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 804
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66edd3ef109f25f0800000000000000
+      internalID: -779245743870450070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 804
+        width: 111
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3fbab3f164fe420800000000000000
+      internalID: 2661423004758307777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 812
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d6b386546c35db0800000000000000
+      internalID: -4804278376070419125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 804
+        width: 82
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fd1a51a5d9c5960800000000000000
+      internalID: 7592116082075361032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 803
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873bc2f9b18db40f0800000000000000
+      internalID: -1131573268207324296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 804
+        width: 109
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26091002ac9ed04c0800000000000000
+      internalID: -4319539413248798622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 708
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dea3f1a228168d0800000000000000
+      internalID: -2854857571351990997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 708
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85aef7a38216bb50800000000000000
+      internalID: 6608489859881280908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_9
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 708
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a712f8d03d3a0b0f0800000000000000
+      internalID: -1103201781844860550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 708
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4653f0372723190800000000000000
+      internalID: -7984193350872505183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d735818c231201490800000000000000
+      internalID: -7777680054479727747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_12
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 580
+        width: 33
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c2419330c739a30800000000000000
+      internalID: 4220853629060656164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 584
+        width: 67
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd96d94b3ecf91a0800000000000000
+      internalID: -6800490158268965385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_14
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 575
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13209be52ab3e9510800000000000000
+      internalID: 1557748089676694065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_15
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 587
+        width: 76
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b779aac2d2028890800000000000000
+      internalID: -7457394928605628490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_16
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 544
+        width: 86
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5860444a3497c0370800000000000000
+      internalID: 8290134345507931781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_17
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 501
+        width: 55
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70656d5f006ad5900800000000000000
+      internalID: 674878042230117895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bf1174488d0b920800000000000000
+      internalID: 3004139014095764347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 558
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f72be3bd8df06bf0800000000000000
+      internalID: -332987587374667783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a1f351a38001850800000000000000
+      internalID: 6345580920522611282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a9d14cceb158390800000000000000
+      internalID: -7816810874515121551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 504
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cc545880e0ff1e0800000000000000
+      internalID: -2161993866356077476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 385
+        width: 54
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9105a0424f428cb0800000000000000
+      internalID: -4863237501635722854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 381
+        width: 122
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f48d2d0346cb990800000000000000
+      internalID: -7368904729426374783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 390
+        width: 103
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbb1577107f89df0800000000000000
+      internalID: -173116999984890958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 388
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8751db25f729740800000000000000
+      internalID: 5157324516628986080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_27
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 388
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d47b629b1f576570800000000000000
+      internalID: 8459834997064037593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 267
+        width: 83
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defe74210d97ee900800000000000000
+      internalID: 715643325365350381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_29
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 290
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7681721b67cfac0800000000000000
+      internalID: -3820047880679823367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba097363b13488c0800000000000000
+      internalID: -3998015922660373833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_31
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 71
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7c17a7133d214e0800000000000000
+      internalID: -2012313874020055132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 36
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a1426de325ecc90800000000000000
+      internalID: -7147685128756258186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 135
+        width: 101
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106a874300013da10800000000000000
+      internalID: 1932906258138441217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bleu para game_0: -1286069125854406193
+      bleu para game_1: -779245743870450070
+      bleu para game_10: -7984193350872505183
+      bleu para game_11: -7777680054479727747
+      bleu para game_12: 4220853629060656164
+      bleu para game_13: -6800490158268965385
+      bleu para game_14: 1557748089676694065
+      bleu para game_15: -7457394928605628490
+      bleu para game_16: 8290134345507931781
+      bleu para game_17: 674878042230117895
+      bleu para game_18: 3004139014095764347
+      bleu para game_19: -332987587374667783
+      bleu para game_2: 2661423004758307777
+      bleu para game_20: 6345580920522611282
+      bleu para game_21: -7816810874515121551
+      bleu para game_22: -2161993866356077476
+      bleu para game_23: -4863237501635722854
+      bleu para game_24: -7368904729426374783
+      bleu para game_25: -173116999984890958
+      bleu para game_26: 5157324516628986080
+      bleu para game_27: 8459834997064037593
+      bleu para game_28: 715643325365350381
+      bleu para game_29: -3820047880679823367
+      bleu para game_3: -4804278376070419125
+      bleu para game_30: -3998015922660373833
+      bleu para game_31: -2012313874020055132
+      bleu para game_32: -7147685128756258186
+      bleu para game_33: 1932906258138441217
+      bleu para game_4: 7592116082075361032
+      bleu para game_5: -1131573268207324296
+      bleu para game_6: -4319539413248798622
+      bleu para game_7: -2854857571351990997
+      bleu para game_8: 6608489859881280908
+      bleu para game_9: -1103201781844860550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
