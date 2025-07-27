@@ -6,6 +6,7 @@ public class PlayerPlatformer : MonoBehaviour
     [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private Transform groundCheck;
+
     [SerializeField] private LayerMask groundLayer;
 
     public PlayerInputActions PlayerInputActions { get; private set; }
@@ -51,19 +52,13 @@ public class PlayerPlatformer : MonoBehaviour
 
         isJumping = false;
     }
-
-    private void Jump()
+    private void OnDrawGizmosSelected()
     {
-        // Checar se está no chão
-        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-
-        // Pular
-        if (isJumping && isGrounded)
+        if (groundCheck != null)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, 0.2f);
         }
-
-        isJumping = false;
     }
+    
 }
-
