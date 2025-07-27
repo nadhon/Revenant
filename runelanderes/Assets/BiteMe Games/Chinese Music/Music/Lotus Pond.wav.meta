@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 98268bf8dd1e106498a9c2a45c958d7f
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 278598
+  packageName: Chinese Fantasy Music
+  packageVersion: 1.0
+  assetPath: Assets/BiteMe Games/Chinese Music/Music/Lotus Pond.wav
+  uploadId: 647736

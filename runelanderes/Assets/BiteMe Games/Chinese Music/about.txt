@@ -1,0 +1,14 @@
+Chinese Music v1.0.0 - BiteMe Games
+
+About
+---
+​2 pieces of music, designed for a Chinese martial arts setting, using mainly the Guzheng, Flute & Drums as instruments.
+
+The songs are 60s long, and come with a looping and non-looping version. 
+
+
+Changelog
+---
+
+v1.0.0 (28/02/2024)
+- Initial Release

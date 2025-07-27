@@ -52,6 +52,9 @@
     <Compile Include="Assets\Scenes\PlayerInputActions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\BiteMe Games\Chinese Music\about.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
