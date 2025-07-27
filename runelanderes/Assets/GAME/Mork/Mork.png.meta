@@ -1,0 +1,2004 @@
+fileFormatVersion: 2
+guid: 1008af14670425c49b092bb537da7a7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6143658009078651855
+    second: Mork_0
+  - first:
+      213: 7046674620306844714
+    second: Mork_1
+  - first:
+      213: -2621251343943917647
+    second: Mork_2
+  - first:
+      213: -876101092797763304
+    second: Mork_3
+  - first:
+      213: -1725121097829965063
+    second: Mork_4
+  - first:
+      213: -7997031409103256446
+    second: Mork_5
+  - first:
+      213: -2210269130209661865
+    second: Mork_6
+  - first:
+      213: -3734232079000388004
+    second: Mork_7
+  - first:
+      213: 6966099604588864142
+    second: Mork_8
+  - first:
+      213: -1488419534612963814
+    second: Mork_9
+  - first:
+      213: 7443447160533029850
+    second: Mork_10
+  - first:
+      213: 6577749707465876130
+    second: Mork_11
+  - first:
+      213: -8799752712629409119
+    second: Mork_12
+  - first:
+      213: 6160995707935499534
+    second: Mork_13
+  - first:
+      213: -3224686734075223752
+    second: Mork_14
+  - first:
+      213: -2980967097347456358
+    second: Mork_15
+  - first:
+      213: -3876468528146118342
+    second: Mork_16
+  - first:
+      213: -8193169724700457035
+    second: Mork_17
+  - first:
+      213: 6436549361504440106
+    second: Mork_18
+  - first:
+      213: 4818127650720231877
+    second: Mork_19
+  - first:
+      213: 3471270343723925246
+    second: Mork_20
+  - first:
+      213: -4801226200892100656
+    second: Mork_21
+  - first:
+      213: 3154185697777540463
+    second: Mork_22
+  - first:
+      213: 8327373425318698951
+    second: Mork_23
+  - first:
+      213: 8829122749551217015
+    second: Mork_24
+  - first:
+      213: -1563784269772810860
+    second: Mork_25
+  - first:
+      213: -3860958428830294144
+    second: Mork_26
+  - first:
+      213: -8952689719068403357
+    second: Mork_27
+  - first:
+      213: 1503631404120220457
+    second: Mork_28
+  - first:
+      213: 7833618691801513865
+    second: Mork_29
+  - first:
+      213: 6073674460297139029
+    second: Mork_30
+  - first:
+      213: 6881294946081581313
+    second: Mork_31
+  - first:
+      213: -9003412925743704294
+    second: Mork_32
+  - first:
+      213: 783488651488113621
+    second: Mork_33
+  - first:
+      213: 7245354228344179533
+    second: Mork_34
+  - first:
+      213: -4601188975951876586
+    second: Mork_35
+  - first:
+      213: 5526741470598062197
+    second: Mork_36
+  - first:
+      213: -8285575055425369346
+    second: Mork_37
+  - first:
+      213: -4073368067753705487
+    second: Mork_38
+  - first:
+      213: -2419312872507102197
+    second: Mork_39
+  - first:
+      213: 7385612239337318232
+    second: Mork_40
+  - first:
+      213: -3499966645488663340
+    second: Mork_41
+  - first:
+      213: -3498796028740672628
+    second: Mork_42
+  - first:
+      213: 2554571781513412127
+    second: Mork_43
+  - first:
+      213: -6993554359790492152
+    second: Mork_44
+  - first:
+      213: 2773740696237116601
+    second: Mork_45
+  - first:
+      213: -8640904656676043471
+    second: Mork_46
+  - first:
+      213: -7076813963994375675
+    second: Mork_47
+  - first:
+      213: -342033579677454566
+    second: Mork_48
+  - first:
+      213: -7978804565908959671
+    second: Mork_49
+  - first:
+      213: -2667907473199337616
+    second: Mork_50
+  - first:
+      213: -2537720905093822624
+    second: Mork_51
+  - first:
+      213: -7436261357589177732
+    second: Mork_52
+  - first:
+      213: 654688504678399468
+    second: Mork_53
+  - first:
+      213: -9217636758837265258
+    second: Mork_54
+  - first:
+      213: 8367362189807370161
+    second: Mork_55
+  - first:
+      213: -5100516487107695063
+    second: Mork_56
+  - first:
+      213: -3745674458279631673
+    second: Mork_57
+  - first:
+      213: -3906492155877159977
+    second: Mork_58
+  - first:
+      213: 103901313066197066
+    second: Mork_59
+  - first:
+      213: -6370750616895101815
+    second: Mork_60
+  - first:
+      213: 6754577264325406596
+    second: Mork_61
+  - first:
+      213: -3840904458089093277
+    second: Mork_62
+  - first:
+      213: 8773673735511332022
+    second: Mork_63
+  - first:
+      213: 5743814619626270774
+    second: Mork_64
+  - first:
+      213: -5715443950251667013
+    second: Mork_65
+  - first:
+      213: -4535806686304808037
+    second: Mork_66
+  - first:
+      213: -3283372231278881760
+    second: Mork_67
+  - first:
+      213: 1243459889718142236
+    second: Mork_68
+  - first:
+      213: 4603000602243533391
+    second: Mork_69
+  - first:
+      213: -4064897301155491442
+    second: Mork_70
+  - first:
+      213: 2839665212762259022
+    second: Mork_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mork_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 615
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbdd94a868a24550800000000000000
+      internalID: 6143658009078651855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 615
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c66277b31dac160800000000000000
+      internalID: 7046674620306844714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 615
+        width: 130
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf15396ac17f9bd0800000000000000
+      internalID: -2621251343943917647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 628
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8113578a2b677d3f0800000000000000
+      internalID: -876101092797763304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 625
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2205960832f08e0800000000000000
+      internalID: -1725121097829965063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 623
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28442c2bd46d40190800000000000000
+      internalID: -7997031409103256446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 615
+        width: 182
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c67d3cfeb8351e0800000000000000
+      internalID: -2210269130209661865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_7
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 615
+        width: 119
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e305e75b75d2cc0800000000000000
+      internalID: -3734232079000388004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 507
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e822281beae8ca060800000000000000
+      internalID: 6966099604588864142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 507
+        width: 97
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e54aab152185be0800000000000000
+      internalID: -1488419534612963814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 503
+        width: 111
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad316f361cf6c4760800000000000000
+      internalID: 7443447160533029850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 489
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2eeee228cd84b50800000000000000
+      internalID: 6577749707465876130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 488
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaa17ce78ff0e580800000000000000
+      internalID: -8799752712629409119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 488
+        width: 119
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05a33a34f0408550800000000000000
+      internalID: 6160995707935499534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 487
+        width: 118
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831288f108c9f33d0800000000000000
+      internalID: -3224686734075223752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 487
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a924a73083a71a6d0800000000000000
+      internalID: -2980967097347456358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_16
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 489
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a398edc7964043ac0800000000000000
+      internalID: -3876468528146118342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_17
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 493
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b78ebe6b830c4e80800000000000000
+      internalID: -8193169724700457035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_18
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 493
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f4dbfba87335950800000000000000
+      internalID: 6436549361504440106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_19
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 493
+        width: 137
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1baaf129d6dd240800000000000000
+      internalID: 4818127650720231877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_20
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 373
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe330d6cfd6c2030800000000000000
+      internalID: 3471270343723925246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 398
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df2781553e9e5db0800000000000000
+      internalID: -4801226200892100656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 416
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dd5a73e2be5cb20800000000000000
+      internalID: 3154185697777540463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 400
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf16209206c09370800000000000000
+      internalID: 8327373425318698951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 374
+        width: 54
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779025dac58578a70800000000000000
+      internalID: 8829122749551217015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_25
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 327
+        width: 58
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49519deed725c4ae0800000000000000
+      internalID: -1563784269772810860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_26
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 452
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f1505e3ce1b6ac0800000000000000
+      internalID: -3860958428830294144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_27
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 393
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369d2a64228a1c380800000000000000
+      internalID: -8952689719068403357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 385
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92325b3abc8fdd410800000000000000
+      internalID: 1503631404120220457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_29
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 385
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f70b622ba96bc60800000000000000
+      internalID: 7833618691801513865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 407
+        width: 49
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5539f5fedb60a4450800000000000000
+      internalID: 6073674460297139029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_31
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 375
+        width: 96
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10922e77b454f7f50800000000000000
+      internalID: 6881294946081581313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_32
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 375
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17d2ea65a37d0380800000000000000
+      internalID: -9003412925743704294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_33
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 375
+        width: 73
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3bf7507c28fda00800000000000000
+      internalID: 783488651488113621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 376
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b445c784bac8460800000000000000
+      internalID: 7245354228344179533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 57
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ee1f7210b4520c0800000000000000
+      internalID: -4601188975951876586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_36
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 356
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570ea68e51ee2bc40800000000000000
+      internalID: 5526741470598062197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_37
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 295
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa888dc269b30d80800000000000000
+      internalID: -8285575055425369346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_38
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 280
+        width: 47
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fffe12f25d7877c0800000000000000
+      internalID: -4073368067753705487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_39
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 296
+        width: 104
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c2fa1b2cfdc6ed0800000000000000
+      internalID: -2419312872507102197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 250
+        width: 79
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8576a767337fe7660800000000000000
+      internalID: 7385612239337318232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 253
+        width: 136
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4cee921ee9d6fc0800000000000000
+      internalID: -3499966645488663340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_42
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 247
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c836d5d9c87c17fc0800000000000000
+      internalID: -3498796028740672628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_43
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 247
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ef7562089a37320800000000000000
+      internalID: 2554571781513412127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_44
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 297
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806ad4bfc57e1fe90800000000000000
+      internalID: -6993554359790492152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_45
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 279
+        width: 131
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc0242a77e4e7620800000000000000
+      internalID: 2773740696237116601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_46
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 279
+        width: 75
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1354ec80ff6551880800000000000000
+      internalID: -8640904656676043471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 279
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a579eb13b1acd90800000000000000
+      internalID: -7076813963994375675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fe11e754ad04bf0800000000000000
+      internalID: -342033579677454566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 135
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e4bb45587954190800000000000000
+      internalID: -7978804565908959671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 135
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fe75ec940b9fad0800000000000000
+      internalID: -2667907473199337616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 135
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067ccc0484438ccd0800000000000000
+      internalID: -2537720905093822624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_52
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 135
+        width: 103
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7adeebb1b71dc890800000000000000
+      internalID: -7436261357589177732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_53
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 176
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced33efe9bbe51900800000000000000
+      internalID: 654688504678399468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_54
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 181
+        width: 132
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cfbe87430641080800000000000000
+      internalID: -9217636758837265258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_55
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 168
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfb0865497de1470800000000000000
+      internalID: 8367362189807370161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_56
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 168
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e2ce657435739b0800000000000000
+      internalID: -5100516487107695063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_57
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 168
+        width: 57
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c42df5fce0b40cc0800000000000000
+      internalID: -3745674458279631673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_58
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 168
+        width: 103
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db871be41a59c9c0800000000000000
+      internalID: -3906492155877159977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_59
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 168
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40e10991b1217100800000000000000
+      internalID: 103901313066197066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_60
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 168
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984ed5f411c8697a0800000000000000
+      internalID: -6370750616895101815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_61
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 142
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fab001c341dbd50800000000000000
+      internalID: 6754577264325406596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367a26fcebd52bac0800000000000000
+      internalID: -3840904458089093277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 50
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4d35c07c952c970800000000000000
+      internalID: 8773673735511332022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_64
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 7
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630f48ae6f026bf40800000000000000
+      internalID: 5743814619626270774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_65
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 7
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1189b420aaea0b0800000000000000
+      internalID: -5715443950251667013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_66
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 7
+        width: 31
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93d5fcb9d39d01c0800000000000000
+      internalID: -4535806686304808037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_67
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0249d390a5e1f62d0800000000000000
+      internalID: -3283372231278881760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_68
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 2
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15a81b7e28a14110800000000000000
+      internalID: 1243459889718142236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_69
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a82a5f8a421ef30800000000000000
+      internalID: 4603000602243533391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_70
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81de2cf0759697c0800000000000000
+      internalID: -4064897301155491442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mork_71
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2
+        width: 112
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e7abf3774886720800000000000000
+      internalID: 2839665212762259022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cb3dc5661e5c5064bb979e332001a700
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+    nameFileIdTable:
+      Mork_0: 6143658009078651855
+      Mork_1: 7046674620306844714
+      Mork_10: 7443447160533029850
+      Mork_11: 6577749707465876130
+      Mork_12: -8799752712629409119
+      Mork_13: 6160995707935499534
+      Mork_14: -3224686734075223752
+      Mork_15: -2980967097347456358
+      Mork_16: -3876468528146118342
+      Mork_17: -8193169724700457035
+      Mork_18: 6436549361504440106
+      Mork_19: 4818127650720231877
+      Mork_2: -2621251343943917647
+      Mork_20: 3471270343723925246
+      Mork_21: -4801226200892100656
+      Mork_22: 3154185697777540463
+      Mork_23: 8327373425318698951
+      Mork_24: 8829122749551217015
+      Mork_25: -1563784269772810860
+      Mork_26: -3860958428830294144
+      Mork_27: -8952689719068403357
+      Mork_28: 1503631404120220457
+      Mork_29: 7833618691801513865
+      Mork_3: -876101092797763304
+      Mork_30: 6073674460297139029
+      Mork_31: 6881294946081581313
+      Mork_32: -9003412925743704294
+      Mork_33: 783488651488113621
+      Mork_34: 7245354228344179533
+      Mork_35: -4601188975951876586
+      Mork_36: 5526741470598062197
+      Mork_37: -8285575055425369346
+      Mork_38: -4073368067753705487
+      Mork_39: -2419312872507102197
+      Mork_4: -1725121097829965063
+      Mork_40: 7385612239337318232
+      Mork_41: -3499966645488663340
+      Mork_42: -3498796028740672628
+      Mork_43: 2554571781513412127
+      Mork_44: -6993554359790492152
+      Mork_45: 2773740696237116601
+      Mork_46: -8640904656676043471
+      Mork_47: -7076813963994375675
+      Mork_48: -342033579677454566
+      Mork_49: -7978804565908959671
+      Mork_5: -7997031409103256446
+      Mork_50: -2667907473199337616
+      Mork_51: -2537720905093822624
+      Mork_52: -7436261357589177732
+      Mork_53: 654688504678399468
+      Mork_54: -9217636758837265258
+      Mork_55: 8367362189807370161
+      Mork_56: -5100516487107695063
+      Mork_57: -3745674458279631673
+      Mork_58: -3906492155877159977
+      Mork_59: 103901313066197066
+      Mork_6: -2210269130209661865
+      Mork_60: -6370750616895101815
+      Mork_61: 6754577264325406596
+      Mork_62: -3840904458089093277
+      Mork_63: 8773673735511332022
+      Mork_64: 5743814619626270774
+      Mork_65: -5715443950251667013
+      Mork_66: -4535806686304808037
+      Mork_67: -3283372231278881760
+      Mork_68: 1243459889718142236
+      Mork_69: 4603000602243533391
+      Mork_7: -3734232079000388004
+      Mork_70: -4064897301155491442
+      Mork_71: 2839665212762259022
+      Mork_8: 6966099604588864142
+      Mork_9: -1488419534612963814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
