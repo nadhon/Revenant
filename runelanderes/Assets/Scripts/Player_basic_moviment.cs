@@ -4,22 +4,40 @@ using UnityEngine.InputSystem;
 public class PlayerPlatformer : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 3f;
-    [SerializeField] private float jumpForce = 5f;
     [SerializeField] private Transform groundCheck;
 
     [SerializeField] private LayerMask groundLayer;
 
+    [Header("Jumping ")]
+    [Tooltip("Speed height.")]
+    [SerializeField] private float jumpForce = 5f;
+
     public PlayerInputActions PlayerInputActions { get; private set; }
 
+    private readonly PlayerInputActions inputActions;
     private Rigidbody2D rb;
-    private PlayerInputActions inputActions;
     private Vector2 moveInput;
     private bool isJumping;
+
+    Animator playerAnimator;
+
+    private Vector3 originalScale;
 
     private void Awake()
     {
         PlayerInputActions = new PlayerInputActions();
         rb = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
+        if (groundCheck == null)
+        {
+            Debug.LogError("Ground Check Transform is not assigned in the PlayerPlatformer script.");
+        }
+    }
+
+    void Start()
+    {
+        PlayerInputActions.Enable();
+        originalScale = transform.localScale;
     }
 
     private void OnEnable()
@@ -35,15 +53,40 @@ public class PlayerPlatformer : MonoBehaviour
         PlayerInputActions.Player.Jump.performed -= ctx => isJumping = true;
         PlayerInputActions.Player.Disable();
     }
+    private void Update()
+    {
+        // Atualizar animação de movimento
+        playerAnimator.SetBool("IDLE", moveInput.x == 0);
+        playerAnimator.SetBool("RUNNING", Mathf.Abs(moveInput.x) > 0);
+        if (PlayerInputActions.Player.Ataque.triggered && playerAnimator != null)
+        {
+            playerAnimator.SetTrigger("ATAQUE");
+        }
+        if (isJumping)
+        {
+            playerAnimator.SetBool("JUMP", true);
+        }
+
+    }
 
     private void FixedUpdate()
     {
         // Movimentação horizontal
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
-
+        if (moveInput.x < 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(originalScale.x) * -1, originalScale.y, originalScale.z); // Vira para a esquerda
+        }
+        else if (moveInput.x > 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Vira para a direita
+        }
         // Checar se está no chão
         bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-
+        if (isGrounded &&  !isJumping)
+        {
+            playerAnimator.SetBool("JUMP", false);
+        }
         // Pular
         if (isJumping && isGrounded)
         {
