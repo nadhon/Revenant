@@ -91,6 +91,7 @@ public class PlayerPlatformer : MonoBehaviour
         if (isJumping && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            playerAnimator.SetBool("JUMP", true);
         }
 
         isJumping = false;
