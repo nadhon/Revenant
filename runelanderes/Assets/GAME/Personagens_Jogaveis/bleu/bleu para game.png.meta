@@ -215,12 +215,12 @@ TextureImporter:
       name: bleu para game_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 916
-        width: 66
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 1072
+        width: 64
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: bleu para game_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 804
-        width: 86
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 1072
+        width: 78
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: bleu para game_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 804
-        width: 111
-        height: 97
+        x: 192
+        y: 1072
+        width: 84
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: bleu para game_3
       rect:
         serializedVersion: 2
-        x: 211
-        y: 812
-        width: 104
-        height: 85
+        x: 5
+        y: 960
+        width: 84
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: bleu para game_4
       rect:
         serializedVersion: 2
-        x: 331
-        y: 804
-        width: 82
+        x: 101
+        y: 960
+        width: 109
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: bleu para game_5
       rect:
         serializedVersion: 2
-        x: 418
-        y: 803
-        width: 106
-        height: 95
+        x: 212
+        y: 968
+        width: 102
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: bleu para game_6
       rect:
         serializedVersion: 2
-        x: 525
-        y: 804
-        width: 109
-        height: 90
+        x: 332
+        y: 960
+        width: 80
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,12 +369,12 @@ TextureImporter:
       name: bleu para game_7
       rect:
         serializedVersion: 2
-        x: 185
-        y: 708
-        width: 87
-        height: 85
+        x: 419
+        y: 959
+        width: 104
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: bleu para game_8
       rect:
         serializedVersion: 2
-        x: 271
-        y: 708
-        width: 94
-        height: 74
+        x: 526
+        y: 960
+        width: 108
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,12 +413,12 @@ TextureImporter:
       name: bleu para game_9
       rect:
         serializedVersion: 2
-        x: 373
-        y: 708
-        width: 66
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 186
+        y: 864
+        width: 85
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: bleu para game_10
       rect:
         serializedVersion: 2
-        x: 454
-        y: 708
-        width: 89
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 864
+        width: 92
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.79}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: bleu para game_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 500
-        width: 81
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 374
+        y: 864
+        width: 64
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.86}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -479,12 +479,12 @@ TextureImporter:
       name: bleu para game_12
       rect:
         serializedVersion: 2
-        x: 115
-        y: 580
-        width: 33
-        height: 126
+        x: 455
+        y: 864
+        width: 87
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -501,12 +501,12 @@ TextureImporter:
       name: bleu para game_13
       rect:
         serializedVersion: 2
-        x: 162
-        y: 584
-        width: 67
-        height: 108
+        x: 1
+        y: 656
+        width: 79
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -523,12 +523,12 @@ TextureImporter:
       name: bleu para game_14
       rect:
         serializedVersion: 2
-        x: 239
-        y: 575
-        width: 82
-        height: 112
+        x: 116
+        y: 736
+        width: 31
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -545,12 +545,12 @@ TextureImporter:
       name: bleu para game_15
       rect:
         serializedVersion: 2
-        x: 326
-        y: 587
-        width: 76
-        height: 117
+        x: 163
+        y: 740
+        width: 65
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,12 +567,12 @@ TextureImporter:
       name: bleu para game_16
       rect:
         serializedVersion: 2
-        x: 415
-        y: 544
-        width: 86
-        height: 150
+        x: 240
+        y: 731
+        width: 80
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -589,12 +589,12 @@ TextureImporter:
       name: bleu para game_17
       rect:
         serializedVersion: 2
-        x: 513
-        y: 501
-        width: 55
-        height: 152
+        x: 327
+        y: 743
+        width: 74
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -611,12 +611,12 @@ TextureImporter:
       name: bleu para game_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 552
-        width: 6
-        height: 7
+        x: 416
+        y: 700
+        width: 84
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -633,12 +633,12 @@ TextureImporter:
       name: bleu para game_19
       rect:
         serializedVersion: 2
-        x: 7
-        y: 558
-        width: 6
-        height: 6
+        x: 514
+        y: 657
+        width: 53
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -655,12 +655,12 @@ TextureImporter:
       name: bleu para game_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 526
-        width: 5
-        height: 7
+        x: 8
+        y: 714
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -677,12 +677,12 @@ TextureImporter:
       name: bleu para game_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 510
-        width: 5
-        height: 7
+        x: 1
+        y: 708
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -699,12 +699,12 @@ TextureImporter:
       name: bleu para game_22
       rect:
         serializedVersion: 2
-        x: 4
-        y: 504
-        width: 6
-        height: 7
+        x: 0
+        y: 682
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -721,12 +721,12 @@ TextureImporter:
       name: bleu para game_23
       rect:
         serializedVersion: 2
-        x: 557
-        y: 385
-        width: 54
-        height: 126
+        x: 0
+        y: 666
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -743,12 +743,12 @@ TextureImporter:
       name: bleu para game_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 381
-        width: 122
-        height: 39
+        x: 5
+        y: 660
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -765,12 +765,12 @@ TextureImporter:
       name: bleu para game_25
       rect:
         serializedVersion: 2
-        x: 120
-        y: 390
-        width: 103
-        height: 64
+        x: 558
+        y: 541
+        width: 52
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -787,12 +787,12 @@ TextureImporter:
       name: bleu para game_26
       rect:
         serializedVersion: 2
-        x: 223
-        y: 388
-        width: 82
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 537
+        width: 120
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 1.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -809,12 +809,12 @@ TextureImporter:
       name: bleu para game_27
       rect:
         serializedVersion: 2
-        x: 309
-        y: 388
-        width: 91
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 121
+        y: 546
+        width: 101
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.71}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -831,12 +831,12 @@ TextureImporter:
       name: bleu para game_28
       rect:
         serializedVersion: 2
-        x: 222
-        y: 267
-        width: 83
-        height: 108
+        x: 229
+        y: 544
+        width: 80
+        height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -853,12 +853,12 @@ TextureImporter:
       name: bleu para game_29
       rect:
         serializedVersion: 2
-        x: 569
-        y: 290
-        width: 65
-        height: 84
+        x: 330
+        y: 544
+        width: 89
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -875,12 +875,12 @@ TextureImporter:
       name: bleu para game_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 220
-        height: 191
+        x: 400
+        y: 423
+        width: 81
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -897,12 +897,12 @@ TextureImporter:
       name: bleu para game_31
       rect:
         serializedVersion: 2
-        x: 307
-        y: 0
-        width: 71
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 570
+        y: 446
+        width: 63
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.72}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -919,12 +919,12 @@ TextureImporter:
       name: bleu para game_32
       rect:
         serializedVersion: 2
-        x: 370
-        y: 36
-        width: 77
-        height: 105
+        x: 308
+        y: 214
+        width: 69
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -941,12 +941,12 @@ TextureImporter:
       name: bleu para game_33
       rect:
         serializedVersion: 2
-        x: 419
-        y: 135
-        width: 101
-        height: 66
+        x: 414
+        y: 251
+        width: 75
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -959,11 +959,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bleu para game_34
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 350
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41795dd5ebad31c4799d532b19968f91
+      internalID: 37228976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 219
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080be91c1f2210949930daad66f56ea1
+      internalID: -477744846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 219
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95243ddc1a2c9d94980bad1c524f8b61
+      internalID: -1346767204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleu para game_37
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 219
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7672f6f0f818c1248b0904566f9717d0
+      internalID: -287529062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3e8026059cba5fe4090e4ec5115a4dc9
     internalID: 0
     vertices: []
     indices: 
@@ -971,7 +1059,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bleu para game_0: -1286069125854406193
       bleu para game_1: -779245743870450070
@@ -1001,6 +1091,10 @@ TextureImporter:
       bleu para game_31: -2012313874020055132
       bleu para game_32: -7147685128756258186
       bleu para game_33: 1932906258138441217
+      bleu para game_34: 37228976
+      bleu para game_35: -477744846
+      bleu para game_36: -1346767204
+      bleu para game_37: -287529062
       bleu para game_4: 7592116082075361032
       bleu para game_5: -1131573268207324296
       bleu para game_6: -4319539413248798622
