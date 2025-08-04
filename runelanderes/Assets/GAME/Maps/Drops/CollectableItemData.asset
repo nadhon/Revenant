@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c02d2e72fde8d948a20f21a0f00fa14, type: 3}
+  m_Name: CollectableItemData
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -7404596229885507440, guid: de7aa8427679da64ea8d7b87bdd49344, type: 3}
+  prefab: {fileID: 6485068999960571228, guid: 6f6962d65d40efb4e86e905f811e030f, type: 3}
+  Type: 0

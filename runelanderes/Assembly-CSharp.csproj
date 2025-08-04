@@ -42,6 +42,7 @@
     <UnityVersion>6000.1.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\novoNadhon\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -49,7 +50,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player_basic_moviment.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
+    <Compile Include="Assets\Scripts\CollectableItemData.cs" />
     <Compile Include="Assets\Scenes\PlayerInputActions.cs" />
+    <Compile Include="Assets\Scripts\CollectableItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BiteMe Games\Chinese Music\about.txt" />

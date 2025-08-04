@@ -17,6 +17,7 @@ public class PlayerPlatformer : MonoBehaviour
     private readonly PlayerInputActions inputActions;
     private Rigidbody2D rb;
     private Vector2 moveInput;
+    private bool isCrouching;
     private bool isJumping;
 
     Animator playerAnimator;
@@ -66,6 +67,7 @@ public class PlayerPlatformer : MonoBehaviour
         {
             playerAnimator.SetBool("JUMP", true);
         }
+        playerAnimator.SetBool("CROUCH", isCrouching);
 
     }
 
