@@ -20,6 +20,8 @@ public class PlayerPlatformer : MonoBehaviour
     private bool isCrouching;
     private bool isJumping;
 
+    private bool isAttacking;
+
     Animator playerAnimator;
 
     private Vector3 originalScale;
@@ -46,6 +48,10 @@ public class PlayerPlatformer : MonoBehaviour
         PlayerInputActions.Player.Jump.performed += ctx => isJumping = true;
         PlayerInputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         PlayerInputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+        PlayerInputActions.Player.Crouch.performed += ctx => isCrouching = true;
+        PlayerInputActions.Player.Crouch.canceled += ctx => isCrouching = false;
+        PlayerInputActions.Player.Ataque.performed += ctx => isAttacking = true;
+
         PlayerInputActions.Player.Enable();
     }
 
@@ -59,10 +65,6 @@ public class PlayerPlatformer : MonoBehaviour
         // Atualizar animação de movimento
         playerAnimator.SetBool("IDLE", moveInput.x == 0);
         playerAnimator.SetBool("RUNNING", Mathf.Abs(moveInput.x) > 0);
-        if (PlayerInputActions.Player.Ataque.triggered && playerAnimator != null)
-        {
-            playerAnimator.SetTrigger("ATAQUE");
-        }
         if (isJumping)
         {
             playerAnimator.SetBool("JUMP", true);
@@ -94,6 +96,12 @@ public class PlayerPlatformer : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             playerAnimator.SetBool("JUMP", true);
+        }
+        //Ataque
+        if (isAttacking)
+        {
+            playerAnimator.SetTrigger("ATAQUE");
+            isAttacking = false; // Reseta o ataque após ser executado
         }
 
         isJumping = false;

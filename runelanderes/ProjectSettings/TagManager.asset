@@ -8,6 +8,7 @@ TagManager:
   - Floor
   - Wall
   - Light
+  - enemy
   layers:
   - Default
   - TransparentFX
