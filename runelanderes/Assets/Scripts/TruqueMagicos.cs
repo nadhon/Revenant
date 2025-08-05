@@ -2,14 +2,24 @@ using UnityEngine;
 
 public class TruqueMagicos : MonoBehaviour
 {
-    public GameObject projetil;
-    public Transform pontoDeDisparo;
+  [SerializeField] private Progect prefab;
 
-    public void CastarTruque()
+  [SerializeField] private Transform firePoint;
+
+  void Update()
+  {
+    if (Input.GetKeyDown(KeyCode.E))
     {
-        if (projetil != null && pontoDeDisparo != null)
-        {
-          Instantiate(projetil, pontoDeDisparo.position, pontoDeDisparo.rotation);
-        }
+      Shoot();
     }
+  }
+
+  private void Shoot()
+  {
+    if (prefab != null && firePoint != null)
+    {
+      Instantiate(prefab, firePoint.position, firePoint.rotation);
+    }
+  }
+
 }

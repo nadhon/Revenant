@@ -13,8 +13,6 @@ public class PlayerPlatformer : MonoBehaviour
     [SerializeField] private float jumpForce = 5f;
 
     public PlayerInputActions PlayerInputActions { get; private set; }
-
-    private readonly PlayerInputActions inputActions;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isCrouching;
@@ -77,6 +75,7 @@ public class PlayerPlatformer : MonoBehaviour
     {
         // Movimentação horizontal
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+
         if (moveInput.x < 0)
         {
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x) * -1, originalScale.y, originalScale.z); // Vira para a esquerda
@@ -85,17 +84,15 @@ public class PlayerPlatformer : MonoBehaviour
         {
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Vira para a direita
         }
+        playerAnimator.SetBool("RUNNING", moveInput.x != 0);
+
         // Checar se está no chão
         bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        if (isGrounded &&  !isJumping)
-        {
-            playerAnimator.SetBool("JUMP", false);
-        }
         // Pular
         if (isJumping && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            playerAnimator.SetBool("JUMP", true);
+            playerAnimator.SetTrigger("JUMP");
         }
         //Ataque
         if (isAttacking)
@@ -103,6 +100,9 @@ public class PlayerPlatformer : MonoBehaviour
             playerAnimator.SetTrigger("ATAQUE");
             isAttacking = false; // Reseta o ataque após ser executado
         }
+        playerAnimator.SetBool("CROUCH", isCrouching);
+
+        playerAnimator.SetBool("IDLE", moveInput.x == 0);
 
         isJumping = false;
     }

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1195259075675808665}
   - component: {fileID: 5319315507054322670}
   - component: {fileID: 7874759258358734537}
-  - component: {fileID: -7656488634803287126}
   m_Layer: 0
   m_Name: Gold
   m_TagString: Untagged
@@ -111,19 +110,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!111 &-7656488634803287126
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6485068999960571228}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: 91c600c2476e8014e86881ba5927a214, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0

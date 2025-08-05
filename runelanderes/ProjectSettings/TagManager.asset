@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Light
   - enemy
+  - Collect
   layers:
   - Default
   - TransparentFX

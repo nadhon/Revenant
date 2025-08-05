@@ -371,9 +371,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""Fire ray"",
+                    ""name"": ""Ataque Keybord"",
                     ""id"": ""85c58e0e-c081-4ade-a90d-ad2b8e617266"",
-                    ""path"": ""TwoModifiers"",
+                    ""path"": ""ButtonWithOneModifier"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -382,9 +382,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""modifier1"",
+                    ""name"": ""Button"",
                     ""id"": ""6bae6d0c-4e83-4f26-8b14-c89073f2942c"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/q"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -393,7 +393,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""modifier2"",
+                    ""name"": ""Button"",
                     ""id"": ""13e45bb3-dfe0-4dd3-868e-0700852231fa"",
                     ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
@@ -404,7 +404,40 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""Fire ray(Joystick"",
+                    ""name"": ""Ataque Numerical"",
+                    ""id"": ""5ec24785-9026-4edf-bfe0-d330663fda9a"",
+                    ""path"": ""TwoModifiers"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Ataque"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier1"",
+                    ""id"": ""5e744b1e-1cc3-4b57-b3a0-e66cd1dc62d1"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Ataque"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""modifier2"",
+                    ""id"": ""b64c1833-40c9-4382-834e-f1109e2c56f2"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Ataque"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Ataque(Joystick)"",
                     ""id"": ""d12e9333-9859-4598-9ad6-05bfa46e9d5d"",
                     ""path"": ""TwoModifiers"",
                     ""interactions"": """",
@@ -429,39 +462,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""name"": ""modifier2"",
                     ""id"": ""ab98aba8-9480-4d04-8e55-5cb9a685bf38"",
                     ""path"": ""<Joystick>/trigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Ataque"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""Fire ray Arrow"",
-                    ""id"": ""0df04380-bb67-4423-adad-1ec270b4a688"",
-                    ""path"": ""TwoModifiers"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Ataque"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""modifier1"",
-                    ""id"": ""f71d4881-e35c-46da-951b-2161194f94cc"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Ataque"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""modifier2"",
-                    ""id"": ""1d40ff43-af49-4af8-ae7f-7ba6f33e47b0"",
-                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
