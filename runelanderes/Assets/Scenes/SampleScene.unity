@@ -13666,8 +13666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be7d4d5a60bb2c48af522d7bec7e07a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projetil: {fileID: 3424592805371666947, guid: 5884fb238a5c7d24fbcfb9718ebfeee0, type: 3}
-  pontoDeDisparo: {fileID: 903238477}
+  prefab: {fileID: 1042586191072822706, guid: 5884fb238a5c7d24fbcfb9718ebfeee0, type: 3}
+  firePoint: {fileID: 903238477}
 --- !u!213 &1719115393
 Sprite:
   m_ObjectHideFlags: 0
@@ -22912,7 +22912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.1
+      value: 6.33
       objectReference: {fileID: 0}
     - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.z

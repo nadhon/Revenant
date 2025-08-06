@@ -39,7 +39,7 @@
                     "id": "74028695-dd29-47be-8a40-3140f9a64a9c",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
@@ -166,7 +166,7 @@
                 {
                     "name": "left",
                     "id": "b324fec5-2afb-44e3-aeb3-729d3f82b0ec",
-                    "path": "<Touchscreen>/delta/left",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -177,7 +177,7 @@
                 {
                     "name": "right",
                     "id": "416d6be2-ee17-46af-97ab-d881e8f25264",
-                    "path": "<Touchscreen>/delta/right",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -199,7 +199,7 @@
                 {
                     "name": "",
                     "id": "3c3d4992-a935-4d0a-95d0-11e466865d27",
-                    "path": "<Touchscreen>/touch0/tap",
+                    "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "Press",
                     "processors": "",
                     "groups": "",
@@ -222,7 +222,7 @@
                     "name": "",
                     "id": "9e966fae-8458-4555-93a7-2877f3727442",
                     "path": "<Keyboard>/w",
-                    "interactions": "Press",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Crouch",
@@ -233,7 +233,7 @@
                     "name": "",
                     "id": "bcb6cf52-798e-4c6c-aa56-f62cd1932644",
                     "path": "<Keyboard>/s",
-                    "interactions": "Press",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Crouch",
@@ -285,105 +285,6 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Ataque Keybord",
-                    "id": "85c58e0e-c081-4ade-a90d-ad2b8e617266",
-                    "path": "ButtonWithOneModifier",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Button",
-                    "id": "6bae6d0c-4e83-4f26-8b14-c89073f2942c",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Button",
-                    "id": "13e45bb3-dfe0-4dd3-868e-0700852231fa",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Ataque Numerical",
-                    "id": "5ec24785-9026-4edf-bfe0-d330663fda9a",
-                    "path": "TwoModifiers",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier1",
-                    "id": "5e744b1e-1cc3-4b57-b3a0-e66cd1dc62d1",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "modifier2",
-                    "id": "b64c1833-40c9-4382-834e-f1109e2c56f2",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Ataque(Joystick)",
-                    "id": "d12e9333-9859-4598-9ad6-05bfa46e9d5d",
-                    "path": "TwoModifiers",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier1",
-                    "id": "199db3c1-3e7a-4147-8229-5c20878c1167",
-                    "path": "<Joystick>/stick/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "modifier2",
-                    "id": "ab98aba8-9480-4d04-8e55-5cb9a685bf38",
-                    "path": "<Joystick>/trigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Ataque",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "",
                     "id": "34929931-5b89-4cf9-95ac-6c58ed0112a3",
                     "path": "<Keyboard>/w",
@@ -413,6 +314,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pull-up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "891ea2d0-9e50-4fcd-a010-dc7056f95cbf",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ataque",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38030e9a-76f7-41bd-a8ec-3a9108272b49",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ataque",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "31b38864-e880-43db-954e-8d36eebc5a78",
+                    "path": "<Touchscreen>/touch1/press",
+                    "interactions": "SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ataque",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -55,7 +57,8 @@ public class PlayerPlatformer : MonoBehaviour
 
     private void OnDisable()
     {
-        PlayerInputActions.Player.Jump.performed -= ctx => isJumping = true;
+        PlayerInputActions.Player.Jump.performed -= ctx => isJumping = false;
+        PlayerInputActions.Player.Ataque.performed -= ctx => isAttacking = false;
         PlayerInputActions.Player.Disable();
     }
     private void Update()
@@ -98,7 +101,7 @@ public class PlayerPlatformer : MonoBehaviour
         if (isAttacking)
         {
             playerAnimator.SetTrigger("ATAQUE");
-            isAttacking = false; // Reseta o ataque após ser executado
+                    Debug.Log("Atacou");
         }
         playerAnimator.SetBool("CROUCH", isCrouching);
 

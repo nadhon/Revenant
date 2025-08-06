@@ -11,6 +11,14 @@ public class Progect : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Wall") || collision.CompareTag("Ground") || collision.CompareTag("Water"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+    }
     void Update()
     {
         
