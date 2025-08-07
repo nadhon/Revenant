@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: 17ebb3824b9cbe14698db461bd25bd18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6149378258028521114
+    second: Raiju_0
+  - first:
+      213: 6039672571562420097
+    second: Raiju_1
+  - first:
+      213: -2175192854462653427
+    second: Raiju_2
+  - first:
+      213: 1408789722433392952
+    second: Raiju_3
+  - first:
+      213: 7752387230545164080
+    second: Raiju_4
+  - first:
+      213: -1041184732743964128
+    second: Raiju_5
+  - first:
+      213: 7698229782959217730
+    second: Raiju_6
+  - first:
+      213: -6687803741701096062
+    second: Raiju_7
+  - first:
+      213: -4653919555349892136
+    second: Raiju_8
+  - first:
+      213: 2618592839856042728
+    second: Raiju_9
+  - first:
+      213: -8156801836339728930
+    second: Raiju_10
+  - first:
+      213: 7988150315577188021
+    second: Raiju_11
+  - first:
+      213: 5730981251251546879
+    second: Raiju_12
+  - first:
+      213: 42416419842954138
+    second: Raiju_13
+  - first:
+      213: 2444362675462871807
+    second: Raiju_14
+  - first:
+      213: -6441174498088577900
+    second: Raiju_15
+  - first:
+      213: -3463277918990753872
+    second: Raiju_16
+  - first:
+      213: -6559012490331427456
+    second: Raiju_17
+  - first:
+      213: 6168195284952737156
+    second: Raiju_18
+  - first:
+      213: 8220476805805342349
+    second: Raiju_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Raiju_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66913bc1e0509aaa0800000000000000
+      internalID: -6149378258028521114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 58
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187e5ab443a31d350800000000000000
+      internalID: 6039672571562420097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 58
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c19cf9f9920d1e0800000000000000
+      internalID: -2175192854462653427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 58
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8311dd8d9c60d8310800000000000000
+      internalID: 1408789722433392952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 58
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0373bedbc13069b60800000000000000
+      internalID: 7752387230545164080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 58
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a6c338008fc81f0800000000000000
+      internalID: -1041184732743964128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 84
+        width: 31
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: -1.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cdd9c533b95da60800000000000000
+      internalID: 7698229782959217730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_7
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 58
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 1.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28db0603ee52033a0800000000000000
+      internalID: -6687803741701096062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 79
+        width: 35
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3302a62d4f96fb0800000000000000
+      internalID: -4653919555349892136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_10
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 62
+        width: 34
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd67b942f73dce80800000000000000
+      internalID: -8156801836339728930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_11
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 58
+        width: 34
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be1764936c9bde60800000000000000
+      internalID: 7988150315577188021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_12
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 58
+        width: 24
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 1.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaa54f7519888f40800000000000000
+      internalID: 5730981251251546879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 10
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9312655281b69000800000000000000
+      internalID: 42416419842954138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa103d07ee1ce120800000000000000
+      internalID: 2444362675462871807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 10
+        width: 51
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4941029bbe95c96a0800000000000000
+      internalID: -6441174498088577900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf1a18f417ffefc0800000000000000
+      internalID: -3463277918990753872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 10
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08de17424e4b9f4a0800000000000000
+      internalID: -6559012490331427456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 10
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485e8d06ee4d99550800000000000000
+      internalID: 6168195284952737156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiju_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 10
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e7d56d910051270800000000000000
+      internalID: 8220476805805342349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f15402e9bbf0bac48b79a4ed6583255c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Raiju_0: -6149378258028521114
+      Raiju_1: 6039672571562420097
+      Raiju_10: -8156801836339728930
+      Raiju_11: 7988150315577188021
+      Raiju_12: 5730981251251546879
+      Raiju_13: 42416419842954138
+      Raiju_14: 2444362675462871807
+      Raiju_15: -6441174498088577900
+      Raiju_16: -3463277918990753872
+      Raiju_17: -6559012490331427456
+      Raiju_18: 6168195284952737156
+      Raiju_19: 8220476805805342349
+      Raiju_2: -2175192854462653427
+      Raiju_3: 1408789722433392952
+      Raiju_4: 7752387230545164080
+      Raiju_5: -1041184732743964128
+      Raiju_6: 7698229782959217730
+      Raiju_7: -6687803741701096062
+      Raiju_8: -4653919555349892136
+      Raiju_9: 2618592839856042728
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

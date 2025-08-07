@@ -101,9 +101,14 @@ public class PlayerPlatformer : MonoBehaviour
         if (isAttacking)
         {
             playerAnimator.SetTrigger("ATAQUE");
-                    Debug.Log("Atacou");
+            playerAnimator.SetBool("CROUCH", isCrouching); // Reseta o agachamento após o ataque
+            isAttacking = false; // Reseta o ataque após ser executado
+
         }
         playerAnimator.SetBool("CROUCH", isCrouching);
+        // Animação de agachamento
+        
+        // Animação de idle
 
         playerAnimator.SetBool("IDLE", moveInput.x == 0);
 

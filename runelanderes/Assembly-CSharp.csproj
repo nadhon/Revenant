@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player_basic_moviment.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
+    <Compile Include="Assets\Scripts\MoveEnemy.cs" />
     <Compile Include="Assets\Scripts\TruqueMagicos.cs" />
     <Compile Include="Assets\Scripts\ClassBase.cs" />
     <Compile Include="Assets\Scripts\Progect.cs" />
