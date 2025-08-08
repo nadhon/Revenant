@@ -16,7 +16,7 @@ public class CollectableItem : MonoBehaviour
         }
         else
         {
-            Debug.LogError("CollectableItemData is not assigned in the CollectableItem script.");
+            Debug.LogError(message: "CollectableItemData is not assigned in the CollectableItem script.");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

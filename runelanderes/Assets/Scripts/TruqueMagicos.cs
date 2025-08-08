@@ -10,8 +10,9 @@ public class TruqueMagicos : MonoBehaviour
   public PlayerInputActions PlayerInputActions { get; private set; }
 
   private float magicCounter = 0f;
+    private object direcaoDisparo;
 
-  private void Awake()
+    private void Awake()
   {
     PlayerInputActions = new PlayerInputActions();
     if (prefab == null)
@@ -41,7 +42,10 @@ public class TruqueMagicos : MonoBehaviour
   {
     if (prefab != null && firePoint != null)
     {
-      Instantiate(prefab, firePoint.position, firePoint.rotation);
+      var proj = Instantiate(prefab, firePoint.position, Quaternion.identity);
+      Vector2 direcaoDisparo = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+
+      proj.DefinirDirecao(direcaoDisparo);
     }
   }
 

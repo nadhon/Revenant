@@ -1,23 +1,13 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NovaClasse", menuName = "Classes/Nova Classe")]
-public class ClasseData : ScriptableObject
+public abstract class ClasseData : ScriptableObject
 {
-    public ClassBase classe;
-    [Header("Atributos")]
-    public float vidaMaxima = 100f;
+    public string classeName;
 
-    public float danoBase = 10f;
-    public float moveSpeed = 5f;
+    public Sprite icon;
 
-    [Header("Habilidades")]
-    public GameObject atackPrefab;
+    public float cooldown;
 
-    public GameObject truquePrefab;
-
-    [Header("Aparencia")]
-
-    public RuntimeAnimatorController animacao;
-
-    public Sprite sprite;
+    public abstract void Use(GameObject user);
 }

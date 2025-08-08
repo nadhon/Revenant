@@ -10,6 +10,7 @@ TagManager:
   - Light
   - enemy
   - Collect
+  - Coin
   layers:
   - Default
   - TransparentFX
