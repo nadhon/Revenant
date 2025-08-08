@@ -581,9 +581,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: CROUCH
     m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: ATAQUE
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8655479919884872338}
   m_Solo: 0
