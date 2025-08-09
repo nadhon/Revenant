@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9193311887776324081}
   - component: {fileID: 5393057142902668158}
   - component: {fileID: 1042586191072822706}
+  - component: {fileID: 2364473453528618593}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 3424592805371666947}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.438744, y: -1.4168129, z: 0}
-  m_LocalScale: {x: 5.2125, y: 1, z: 1}
+  m_LocalPosition: {x: -57.0215, y: -0.1987, z: 0}
+  m_LocalScale: {x: 1.9295131, y: 0.4099538, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -124,8 +125,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.4375, y: 0.3125}
+  m_Offset: {x: 0.005740338, y: -0.008965103}
+  m_Size: {x: 1.054794, y: 0.9022072}
   m_Direction: 1
 --- !u!50 &5393057142902668158
 Rigidbody2D:
@@ -167,3 +168,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  distanciaMaxima: 18
+--- !u!95 &2364473453528618593
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424592805371666947}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82c46a237b928234ebecc774e4bf0501, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

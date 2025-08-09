@@ -495,8 +495,8 @@ TextureImporter:
         y: 693
         width: 60
         height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,8 +517,8 @@ TextureImporter:
         y: 693
         width: 64
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -580,7 +580,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 400
-        y: 674
+        y: 675
         width: 88
         height: 65
       alignment: 9
@@ -602,7 +602,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 508
-        y: 674
+        y: 675
         width: 56
         height: 68
       alignment: 9
@@ -755,7 +755,7 @@ TextureImporter:
       name: Demon_15
       rect:
         serializedVersion: 2
-        x: 220
+        x: 219
         y: 534
         width: 40
         height: 89
@@ -825,8 +825,8 @@ TextureImporter:
         y: 574
         width: 63
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -958,7 +958,7 @@ TextureImporter:
         width: 37
         height: 72
       alignment: 9
-      pivot: {x: 0.5, y: 0.7}
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,8 +1001,8 @@ TextureImporter:
         y: 494
         width: 66
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1020,11 +1020,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 334
+        y: 342
         width: 38
         height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.57}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1042,11 +1042,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 334
+        y: 342
         width: 38
         height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.57}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1064,7 +1064,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 334
+        y: 342
         width: 76
         height: 89
       alignment: 0
@@ -1086,8 +1086,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 334
-        width: 62
+        y: 342
+        width: 64
         height: 89
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1108,11 +1108,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 334
-        width: 63
+        y: 342
+        width: 69
         height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.57}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,8 +1155,8 @@ TextureImporter:
         y: 414
         width: 65
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,8 +1287,8 @@ TextureImporter:
         y: 334
         width: 80
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,7 +1306,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 234
+        y: 230
         width: 40
         height: 89
       alignment: 0
@@ -1328,11 +1328,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 234
+        y: 230
         width: 66
         height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.57}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1350,11 +1350,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 234
+        y: 230
         width: 71
         height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,10 +1372,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 200
-        y: 234
+        y: 230
         width: 66
         height: 81
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -1394,7 +1394,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 280
-        y: 242
+        y: 238
         width: 81
         height: 66
       alignment: 0
@@ -1416,11 +1416,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 580
-        y: 254
+        y: 255
         width: 63
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.77}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,7 +1438,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 380
-        y: 234
+        y: 230
         width: 100
         height: 17
       alignment: 0
@@ -1459,9 +1459,9 @@ TextureImporter:
       name: Demon_47
       rect:
         serializedVersion: 2
-        x: 11
-        y: 120
-        width: 5
+        x: 32
+        y: 166
+        width: 6
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1481,9 +1481,9 @@ TextureImporter:
       name: Demon_48
       rect:
         serializedVersion: 2
-        x: 17
-        y: 120
-        width: 7
+        x: 43
+        y: 166
+        width: 8
         height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1503,9 +1503,9 @@ TextureImporter:
       name: Demon_49
       rect:
         serializedVersion: 2
-        x: 25
-        y: 120
-        width: 12
+        x: 52
+        y: 165
+        width: 14
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1525,9 +1525,9 @@ TextureImporter:
       name: Demon_50
       rect:
         serializedVersion: 2
-        x: 38
-        y: 120
-        width: 13
+        x: 68
+        y: 164
+        width: 14
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1547,9 +1547,9 @@ TextureImporter:
       name: Demon_51
       rect:
         serializedVersion: 2
-        x: 52
-        y: 120
-        width: 15
+        x: 83
+        y: 162
+        width: 17
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1569,10 +1569,10 @@ TextureImporter:
       name: Demon_52
       rect:
         serializedVersion: 2
-        x: 68
-        y: 120
-        width: 24
-        height: 24
+        x: 102
+        y: 160
+        width: 26
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1591,10 +1591,10 @@ TextureImporter:
       name: Demon_53
       rect:
         serializedVersion: 2
-        x: 95
-        y: 111
-        width: 42
-        height: 42
+        x: 143
+        y: 154
+        width: 44
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1613,10 +1613,10 @@ TextureImporter:
       name: Demon_54
       rect:
         serializedVersion: 2
-        x: 389
-        y: 0
-        width: 197
-        height: 174
+        x: 199
+        y: 154
+        width: 18
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1635,10 +1635,10 @@ TextureImporter:
       name: Demon_55
       rect:
         serializedVersion: 2
-        x: 586
-        y: 0
-        width: 197
-        height: 174
+        x: 237
+        y: 157
+        width: 12
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1657,10 +1657,10 @@ TextureImporter:
       name: Demon_56
       rect:
         serializedVersion: 2
-        x: 783
-        y: 0
-        width: 197
-        height: 174
+        x: 267
+        y: 166
+        width: 5
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1679,10 +1679,10 @@ TextureImporter:
       name: Demon_57
       rect:
         serializedVersion: 2
-        x: 980
-        y: 0
-        width: 197
-        height: 174
+        x: 284
+        y: 170
+        width: 36
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1701,10 +1701,10 @@ TextureImporter:
       name: Demon_58
       rect:
         serializedVersion: 2
-        x: 9
-        y: 66
-        width: 6
-        height: 5
+        x: 389
+        y: 0
+        width: 197
+        height: 174
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1723,10 +1723,10 @@ TextureImporter:
       name: Demon_59
       rect:
         serializedVersion: 2
-        x: 20
-        y: 66
-        width: 8
-        height: 7
+        x: 586
+        y: 0
+        width: 197
+        height: 174
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1745,10 +1745,10 @@ TextureImporter:
       name: Demon_60
       rect:
         serializedVersion: 2
-        x: 29
-        y: 65
-        width: 14
-        height: 10
+        x: 783
+        y: 0
+        width: 197
+        height: 174
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1767,10 +1767,10 @@ TextureImporter:
       name: Demon_61
       rect:
         serializedVersion: 2
-        x: 45
-        y: 64
-        width: 14
-        height: 12
+        x: 980
+        y: 0
+        width: 197
+        height: 174
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1789,10 +1789,10 @@ TextureImporter:
       name: Demon_62
       rect:
         serializedVersion: 2
-        x: 60
-        y: 62
-        width: 17
-        height: 15
+        x: 11
+        y: 120
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1811,10 +1811,10 @@ TextureImporter:
       name: Demon_63
       rect:
         serializedVersion: 2
-        x: 79
-        y: 58
-        width: 26
-        height: 24
+        x: 17
+        y: 120
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1833,10 +1833,10 @@ TextureImporter:
       name: Demon_64
       rect:
         serializedVersion: 2
-        x: 120
-        y: 54
-        width: 44
-        height: 41
+        x: 25
+        y: 120
+        width: 12
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1855,10 +1855,10 @@ TextureImporter:
       name: Demon_65
       rect:
         serializedVersion: 2
-        x: 204
-        y: 67
-        width: 5
-        height: 5
+        x: 38
+        y: 120
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1877,10 +1877,10 @@ TextureImporter:
       name: Demon_66
       rect:
         serializedVersion: 2
-        x: 210
-        y: 70
-        width: 5
-        height: 4
+        x: 52
+        y: 120
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1899,10 +1899,10 @@ TextureImporter:
       name: Demon_67
       rect:
         serializedVersion: 2
-        x: 216
-        y: 67
-        width: 5
-        height: 5
+        x: 68
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1921,10 +1921,10 @@ TextureImporter:
       name: Demon_68
       rect:
         serializedVersion: 2
-        x: 242
-        y: 68
-        width: 10
-        height: 6
+        x: 95
+        y: 111
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1943,10 +1943,10 @@ TextureImporter:
       name: Demon_69
       rect:
         serializedVersion: 2
-        x: 255
-        y: 68
-        width: 4
-        height: 4
+        x: 58
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1965,10 +1965,10 @@ TextureImporter:
       name: Demon_70
       rect:
         serializedVersion: 2
-        x: 202
-        y: 61
-        width: 4
-        height: 5
+        x: 80
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1987,10 +1987,10 @@ TextureImporter:
       name: Demon_71
       rect:
         serializedVersion: 2
-        x: 219
-        y: 61
-        width: 4
-        height: 5
+        x: 102
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2009,10 +2009,10 @@ TextureImporter:
       name: Demon_72
       rect:
         serializedVersion: 2
-        x: 240
-        y: 53
-        width: 12
-        height: 12
+        x: 124
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2031,10 +2031,10 @@ TextureImporter:
       name: Demon_73
       rect:
         serializedVersion: 2
-        x: 255
-        y: 55
-        width: 6
-        height: 10
+        x: 146
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2053,10 +2053,10 @@ TextureImporter:
       name: Demon_74
       rect:
         serializedVersion: 2
-        x: 204
-        y: 55
-        width: 5
-        height: 5
+        x: 168
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2075,10 +2075,10 @@ TextureImporter:
       name: Demon_75
       rect:
         serializedVersion: 2
-        x: 210
-        y: 53
-        width: 5
-        height: 4
+        x: 192
+        y: 28
+        width: 21
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2097,10 +2097,10 @@ TextureImporter:
       name: Demon_76
       rect:
         serializedVersion: 2
-        x: 216
-        y: 55
+        x: 200
+        y: 45
         width: 5
-        height: 5
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2119,10 +2119,10 @@ TextureImporter:
       name: Demon_77
       rect:
         serializedVersion: 2
-        x: 1
-        y: 34
-        width: 7
-        height: 5
+        x: 224
+        y: 28
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2141,10 +2141,10 @@ TextureImporter:
       name: Demon_78
       rect:
         serializedVersion: 2
-        x: 9
-        y: 33
-        width: 9
-        height: 7
+        x: 1
+        y: 34
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2163,10 +2163,10 @@ TextureImporter:
       name: Demon_79
       rect:
         serializedVersion: 2
-        x: 19
-        y: 32
-        width: 15
-        height: 10
+        x: 9
+        y: 33
+        width: 9
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2185,10 +2185,10 @@ TextureImporter:
       name: Demon_80
       rect:
         serializedVersion: 2
-        x: 35
-        y: 31
-        width: 16
-        height: 12
+        x: 19
+        y: 32
+        width: 15
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2207,10 +2207,10 @@ TextureImporter:
       name: Demon_81
       rect:
         serializedVersion: 2
-        x: 58
-        y: 28
-        width: 21
-        height: 21
+        x: 35
+        y: 31
+        width: 16
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2229,8 +2229,8 @@ TextureImporter:
       name: Demon_82
       rect:
         serializedVersion: 2
-        x: 80
-        y: 28
+        x: 58
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2251,8 +2251,8 @@ TextureImporter:
       name: Demon_83
       rect:
         serializedVersion: 2
-        x: 102
-        y: 28
+        x: 80
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2273,8 +2273,8 @@ TextureImporter:
       name: Demon_84
       rect:
         serializedVersion: 2
-        x: 124
-        y: 28
+        x: 102
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2295,8 +2295,8 @@ TextureImporter:
       name: Demon_85
       rect:
         serializedVersion: 2
-        x: 146
-        y: 28
+        x: 124
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2317,8 +2317,8 @@ TextureImporter:
       name: Demon_86
       rect:
         serializedVersion: 2
-        x: 168
-        y: 28
+        x: 146
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2339,8 +2339,8 @@ TextureImporter:
       name: Demon_87
       rect:
         serializedVersion: 2
-        x: 58
-        y: 6
+        x: 168
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2361,10 +2361,10 @@ TextureImporter:
       name: Demon_88
       rect:
         serializedVersion: 2
-        x: 80
-        y: 6
+        x: 192
+        y: 3
         width: 21
-        height: 21
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2383,10 +2383,10 @@ TextureImporter:
       name: Demon_89
       rect:
         serializedVersion: 2
-        x: 102
-        y: 6
-        width: 21
-        height: 21
+        x: 200
+        y: 20
+        width: 5
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2405,8 +2405,8 @@ TextureImporter:
       name: Demon_90
       rect:
         serializedVersion: 2
-        x: 124
-        y: 6
+        x: 224
+        y: 3
         width: 21
         height: 21
       alignment: 0
@@ -2427,10 +2427,10 @@ TextureImporter:
       name: Demon_91
       rect:
         serializedVersion: 2
-        x: 146
-        y: 6
-        width: 21
-        height: 21
+        x: 1
+        y: 9
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2449,10 +2449,10 @@ TextureImporter:
       name: Demon_92
       rect:
         serializedVersion: 2
-        x: 168
-        y: 6
-        width: 21
-        height: 21
+        x: 9
+        y: 8
+        width: 9
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2471,10 +2471,10 @@ TextureImporter:
       name: Demon_93
       rect:
         serializedVersion: 2
-        x: 204
-        y: 20
-        width: 5
-        height: 5
+        x: 19
+        y: 7
+        width: 15
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2493,162 +2493,8 @@ TextureImporter:
       name: Demon_94
       rect:
         serializedVersion: 2
-        x: 210
-        y: 23
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 894a85fabfb4ef040ba52ae05767a32e
-      internalID: -5945060558466181645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_95
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 20
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 923884b6153cbc24fa642788f3ce9126
-      internalID: -7246157653733839259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_96
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 21
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a0f17d2c836afa42a47037e757232b3
-      internalID: 1966922261805573910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_97
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 21
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b1bf30f06f96c64ba927ddd4f177643
-      internalID: -612168775041887278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_98
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 12
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63d4228a72fa14348bc3c43046baaedd
-      internalID: 2667438419435626537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_99
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 11
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4b9d78ad26f9814f89de0fd7d4750b2
-      internalID: 7118968109359669206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_100
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 10
-        width: 15
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1108e11f5a6093341bcb40395b4ab267
-      internalID: -705143034830072927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_101
-      rect:
-        serializedVersion: 2
         x: 35
-        y: 9
+        y: 6
         width: 16
         height: 12
       alignment: 0
@@ -2659,162 +2505,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a930b46af665202478b3666286562693
-      internalID: 5079783602613669616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_102
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 14
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1342ffbf2a2430e4096032bf565370f4
-      internalID: -2036117980630089788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_103
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 14
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e4c378b739e2ed4ba5cd9c9dac44ac9
-      internalID: -6475434425328873038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_104
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 6
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d78ddffcd50eb47ad32510de6b848d
-      internalID: -1555892840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_105
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 8
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27f39054955acdf43b1f5d1f6f951854
-      internalID: 1026175106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_106
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 8
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4fbbbf03af0f2d4ba5b069f756694f7
-      internalID: 1867295234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_107
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 6
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac130f658675ae548bd1b5c8dfc4b96a
-      internalID: -1837905617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Demon_108
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 8
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dad36832334a59c49a20092d8ed2975e
-      internalID: -1429490249
+      spriteID: 894a85fabfb4ef040ba52ae05767a32e
+      internalID: -5945060558466181645
       vertices: []
       indices: 
       edges: []
@@ -2840,15 +2532,6 @@ TextureImporter:
       Demon_0: 6897479667268090689
       Demon_1: 8954813872578069252
       Demon_10: 3791707957330389740
-      Demon_100: -705143034830072927
-      Demon_101: 5079783602613669616
-      Demon_102: -2036117980630089788
-      Demon_103: -6475434425328873038
-      Demon_104: -1555892840
-      Demon_105: 1026175106
-      Demon_106: 1867295234
-      Demon_107: -1837905617
-      Demon_108: -1429490249
       Demon_11: -7274909863968520850
       Demon_12: 9171309964130863691
       Demon_13: 4722003673658673194
@@ -2941,11 +2624,6 @@ TextureImporter:
       Demon_92: -2471115874111293645
       Demon_93: 8802417983492574996
       Demon_94: -5945060558466181645
-      Demon_95: -7246157653733839259
-      Demon_96: 1966922261805573910
-      Demon_97: -612168775041887278
-      Demon_98: 2667438419435626537
-      Demon_99: 7118968109359669206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

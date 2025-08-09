@@ -5,6 +5,7 @@ public class Progect : MonoBehaviour
 {
     [SerializeField] private float speed = 8f;
     [SerializeField] private float distanciaMaxima = 18f;
+    private Animator anim;
     private Vector2 direcao = Vector2.right;
     private Vector2 pontoInicial;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,6 +14,7 @@ public class Progect : MonoBehaviour
         pontoInicial = transform.position;
         var rb = GetComponent<Rigidbody2D>();
         rb.AddForce(direcao * speed, ForceMode2D.Impulse);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,6 +22,7 @@ public class Progect : MonoBehaviour
     {
         if (collision.CompareTag("enemy") || collision.CompareTag("Wall") || collision.CompareTag("ground") || collision.CompareTag("Water"))
         {
+            anim.SetBool("EXPLOSION", true);
             Destroy(gameObject);
         }
     }
@@ -28,6 +31,7 @@ public class Progect : MonoBehaviour
         float distanciaPercorrida = Vector2.Distance(pontoInicial, transform.position);
         if (distanciaPercorrida >= distanciaMaxima)
         {
+            anim.SetBool("EXPLOSION", true);
             Destroy(gameObject);
         }
     }
