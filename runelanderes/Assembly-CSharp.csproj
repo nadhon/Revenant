@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scripts\Player_basic_moviment.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
     <Compile Include="Assets\Scripts\TruqueMagicos.cs" />
+    <Compile Include="Assets\Scripts\MaoMagica.cs" />
     <Compile Include="Assets\Scripts\HudPlayer.cs" />
     <Compile Include="Assets\Scripts\DeadZone.cs" />
     <Compile Include="Assets\Scripts\ClassBase.cs" />
