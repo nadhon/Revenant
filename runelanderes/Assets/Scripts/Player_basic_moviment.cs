@@ -26,6 +26,10 @@ public class PlayerPlatformer : MonoBehaviour
 
     private Vector3 originalScale;
 
+    private float Life = 100f;
+
+    private bool isDead = false;
+
     private void Awake()
     {
         PlayerInputActions = new PlayerInputActions();
@@ -91,6 +95,7 @@ public class PlayerPlatformer : MonoBehaviour
 
         // Checar se está no chão
         bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
         // Pular
         if (isJumping && isGrounded)
         {
@@ -105,9 +110,14 @@ public class PlayerPlatformer : MonoBehaviour
             isAttacking = false; // Reseta o ataque após ser executado
 
         }
+        if (isCrouching == true)
+        {
+            isJumping = false; // Reseta o pulo se estiver agachando
+            moveInput = Vector2.zero; // Reseta o movimento horizontal se estiver agachando
+        }
         playerAnimator.SetBool("CROUCH", isCrouching);
         // Animação de agachamento
-        
+
         // Animação de idle
 
         playerAnimator.SetBool("IDLE", moveInput.x == 0);
@@ -120,6 +130,21 @@ public class PlayerPlatformer : MonoBehaviour
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, 0.2f);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("enemy")&& !isDead)
+        {
+            collision.GetComponent<LifebarPlayer>().TakeDamage(10);
+            playerAnimator.SetBool("HIT", true);
+            Life -= 10; // Subtrai vida do jogador
+            if (Life <= 0)
+            {
+                isDead = true; // Marca o jogador como morto
+                playerAnimator.SetBool("DEATH", true);
+                Destroy(gameObject); // Destrói o jogador se a vida chegar a zero
+            }
         }
     }
     

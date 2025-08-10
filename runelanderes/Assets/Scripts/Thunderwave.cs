@@ -15,13 +15,16 @@ public class Thunderwave : Spell
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius, targetLayer);
         foreach (Collider2D hit in hits)
         {
-            var enemy = hit.GetComponent<MoveEnemy>();
-            if (enemy != null) enemy.TakeDamage(damage);
-            Rigidbody2D rb = hit.GetComponent<Rigidbody2D>();
-            if (rb != null)
+            if (hit.CompareTag("Player"))
             {
-                Vector2 pushDir = (hit.transform.position - transform.position).normalized;
-                rb.AddForce(pushDir * pushForce, ForceMode2D.Impulse);
+                var enemy = hit.GetComponent<MoveEnemy>();
+                if (enemy != null) enemy.TakeDamage(damage);
+                Rigidbody2D rb = hit.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    Vector2 pushDir = (hit.transform.position - transform.position).normalized;
+                    rb.AddForce(pushDir * pushForce, ForceMode2D.Impulse);
+                }
             }
         }
     }

@@ -8,9 +8,9 @@ public class TruqueMagicos : MonoBehaviour
   [SerializeField] private float timeBetweenShots = 0.5f;
 
   public PlayerInputActions PlayerInputActions { get; private set; }
-
+  
   private float magicCounter = 0f;
-    private object direcaoDisparo;
+  private object direcaoDisparo;
 
     private void Awake()
   {

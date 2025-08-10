@@ -50,12 +50,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player_basic_moviment.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
-    <Compile Include="Assets\Scripts\MoveEnemy.cs" />
     <Compile Include="Assets\Scripts\TruqueMagicos.cs" />
+    <Compile Include="Assets\Scripts\HudPlayer.cs" />
+    <Compile Include="Assets\Scripts\DeadZone.cs" />
     <Compile Include="Assets\Scripts\ClassBase.cs" />
+    <Compile Include="Assets\Scripts\Lifebar.cs" />
     <Compile Include="Assets\Scripts\MapScript.cs" />
     <Compile Include="Assets\Scripts\Progect.cs" />
     <Compile Include="Assets\Scripts\CollectableItemData.cs" />
+    <Compile Include="Assets\Scripts\2pontoPathrolEnemy.cs" />
     <Compile Include="Assets\Scenes\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\Thunderwave.cs" />
     <Compile Include="Assets\Scripts\CollectableItem.cs" />

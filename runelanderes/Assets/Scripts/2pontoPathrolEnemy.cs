@@ -1,7 +1,6 @@
 using System;
 using System.Data.Common;
 using UnityEngine;
-using UnityEngine.Video;
 
 public class MoveEnemy : MonoBehaviour
 {
@@ -10,16 +9,15 @@ public class MoveEnemy : MonoBehaviour
     public float speed = 5f;
     private int pontoAtual = 0;
 
-    [Header("Componetes")]
+    [Header("Status")]
 
-    public int vida = 90;
+    public int Life = 90;
     public Rigidbody2D enemyRb;
     private bool indoParaFrente = true;
     private Animator Animator;
-    private bool jogadorDetecado;
+    [SerializeField] private float raioVision;
+    [SerializeField] private int layerAreavisao;
 
-    [Header("Ataque")]
-    [SerializeField] private Transform pontoDeAtaque;
 
     void Start()
     {
@@ -35,11 +33,7 @@ public class MoveEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!jogadorDetecado)
-        {
-            Patrulhar();
-        }
-        Detectar();
+        Patrulhar();
     }
     private void Patrulhar()
     {
@@ -75,41 +69,19 @@ public class MoveEnemy : MonoBehaviour
         escalaAtual.x *= -1;
         transform.localScale = escalaAtual;
     }
-    private void Detectar()
-    {
-        Vector2 direcao = transform.right * Mathf.Sign(transform.localScale.x);
-        float distanciaDeteccao = 2f;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direcao, distanciaDeteccao, LayerMask.GetMask("Player"));
-        Debug.DrawRay(transform.position, direcao * distanciaDeteccao, Color.red);
-        if (hit.collider != null && hit.collider.CompareTag("Player"))
-        {
-            if (!jogadorDetecado)
-            {
-                jogadorDetecado = true;
-                Animator.SetBool("Patrulha", false);
-                Animator.SetTrigger("ATAQUE");
-
-                Thunderwave thunder = GetComponent<Thunderwave>();
-                if (thunder != null && pontoDeAtaque != null)
-                {
-                    thunder.transform.position = pontoDeAtaque.position;
-                    thunder.Cast();
-                }
-            }
-            else
-            {
-                jogadorDetecado = false;
-                Animator.SetBool("Patrulha", true);
-            }
-            // Aqui você pode adicionar lógica para atacar o jogador
-        }
-    }
     internal void TakeDamage(int damage)
     {
-        vida -= damage;
-        if (vida <= 0)
+        Life -= damage;
+        if (Life <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.GetComponent<LifebarPlayer>().TakeDamage(90);
         }
     }
     void OnDrawGizmosSelected()
@@ -133,10 +105,7 @@ public class MoveEnemy : MonoBehaviour
                 }
             }
         }
-        if (pontoDeAtaque != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(pontoDeAtaque.position, 2f);
-        }
+
+        Gizmos.DrawWireSphere(transform.position, raioVision);
     }
 }
