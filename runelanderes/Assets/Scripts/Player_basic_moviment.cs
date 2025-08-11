@@ -31,6 +31,10 @@ public class PlayerPlatformer : MonoBehaviour
 
     private float VidaMaxima = 100f;
 
+    public float TimeInvecible = 2.0f;
+    bool isInvincible;
+    float DamageCooldown;
+
     private bool isDead = false;
 
     private void Awake()
@@ -78,6 +82,10 @@ public class PlayerPlatformer : MonoBehaviour
             playerAnimator.SetBool("JUMP", true);
         }
         playerAnimator.SetBool("CROUCH", isCrouching, Mathf.Abs(moveInput.x)== 0);
+        if(isInvincible)
+        {
+            isInvincible= false;
+        }
 
     }
 
@@ -155,6 +163,14 @@ public class PlayerPlatformer : MonoBehaviour
     public void changeHeath(float amount)
     {
         vida = Mathf.clamp(vida + amount, 0, vidaMaxima);
+        if(amount <0)
+        {
+            if(isInvincible)
+            {
+                return;
+            }
+            isInvincible = true;
+            damageCooldown= TimeInvincible;
     }
     
 }
