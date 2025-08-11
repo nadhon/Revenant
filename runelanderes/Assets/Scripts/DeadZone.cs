@@ -3,14 +3,12 @@ using UnityEngine;
 public class DeadZone : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+   public void Ontrigger2D(other Collider2D)
+   {
+       Player_basicPlataform player = other.GetComponent<Player_basicPlataform>();
+       if(player != null)
+       {
+           player.changeHealth(-1);
+        }
     }
 }
