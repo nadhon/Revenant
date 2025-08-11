@@ -25,8 +25,11 @@ public class PlayerPlatformer : MonoBehaviour
     Animator playerAnimator;
 
     private Vector3 originalScale;
+    [Header("Status de vida")]
 
-    private float Life = 100f;
+    public int vida{ get { return vidaAtual; }}
+
+    private float VidaMaxima = 100f;
 
     private bool isDead = false;
 
@@ -74,7 +77,7 @@ public class PlayerPlatformer : MonoBehaviour
         {
             playerAnimator.SetBool("JUMP", true);
         }
-        playerAnimator.SetBool("CROUCH", isCrouching);
+        playerAnimator.SetBool("CROUCH", isCrouching, Mathf.Abs(moveInput.x)== 0);
 
     }
 
@@ -82,6 +85,8 @@ public class PlayerPlatformer : MonoBehaviour
     {
         // Movimentação horizontal
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+        //Vector2 position = (Vector2)rb.position + Move * moveSpeed * Time.deltaTime;
+        //rb.MovePosition(position);
 
         if (moveInput.x < 0)
         {
@@ -146,6 +151,10 @@ public class PlayerPlatformer : MonoBehaviour
                 Destroy(gameObject); // Destrói o jogador se a vida chegar a zero
             }
         }
+    }
+    public void changeHeath(float amount)
+    {
+        vida = Mathf.clamp(vida + amount, 0, vidaMaxima);
     }
     
 }
