@@ -13,4 +13,5 @@ esse jogo plataforma estão implementadas mecanicas do genero metroidvania que e
 mostrando adaptividade e aprendizagem do jogador
 
 =============== a primeira fase se inicia em um cenario ficticio ===========================================
+
 a aprendizagem do jogador sendo progreciva e com as mecanicas implementadas
