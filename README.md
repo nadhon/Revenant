@@ -12,6 +12,6 @@ runeterra e o palco desses eventos foi piltover.
 esse jogo plataforma estão implementadas mecanicas do genero metroidvania que envolvem exploração e combate
 mostrando adaptividade e aprendizagem do jogador
 
-=============== a primeira fase se inicia em um cenario ficticio ===========================================
+#=============== a primeira fase se inicia em um cenario ficticio ============================
 
 a aprendizagem do jogador sendo progreciva e com as mecanicas implementadas
