@@ -233,7 +233,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d48551477d42fd7448ce03a22bceff17
+      spriteID: fafef5fde92538a4d869127c3fb08ffd
       internalID: -8893867512608551760
       vertices: []
       indices: 
@@ -255,7 +255,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82434026f268b8042a3fe4706db89eca
+      spriteID: cfff81c9ea259a14380706b3a02801de
       internalID: 7700452867388499559
       vertices: []
       indices: 
@@ -277,7 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d04766d82bdef440942805645842190
+      spriteID: 434bec1862b6f134a969f638f075c67c
       internalID: 7109471285898570359
       vertices: []
       indices: 
@@ -299,7 +299,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 221a79d164c86bf42a1df9ae5fe26c0e
+      spriteID: 0b4deb1a5fba4f34f96a38bbb5e15487
       internalID: -6956186355501933416
       vertices: []
       indices: 
@@ -321,7 +321,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f3add242309ed4198128524e2c24df
+      spriteID: 8a4afd87f7efe6149977868acf3e25e8
       internalID: 3987753446336169110
       vertices: []
       indices: 
@@ -343,7 +343,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b64340f77ec97c24f975c60fc081e249
+      spriteID: dd1ddb6dc3c130e4f90abcf87e3083a9
       internalID: 4687809839010944144
       vertices: []
       indices: 
@@ -365,7 +365,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef34607d35511e54aa3c650b36c832b6
+      spriteID: 47f64550d40cfd046805b25e5902ce8e
       internalID: -2289451465732791639
       vertices: []
       indices: 
@@ -387,7 +387,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4879af3aa59fa8a448f59a50bb6f0766
+      spriteID: 23cdb18bb9b4c694480f8f7f047e2902
       internalID: 5484117554233169874
       vertices: []
       indices: 
@@ -409,7 +409,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3cb6e23fe1d944b997058819c87b1b
+      spriteID: db3cfdaad32c087408b047f5b90ff8d9
       internalID: -6378810390238465042
       vertices: []
       indices: 
@@ -431,7 +431,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf019892838078e488ffd7c6c5a3b64b
+      spriteID: 1f7e57223760ea743b9a5a31ef0e9493
       internalID: 8732228589810646106
       vertices: []
       indices: 
@@ -441,8 +441,8 @@ TextureImporter:
       name: Player Hud_10
       rect:
         serializedVersion: 2
-        x: 221
-        y: 130
+        x: 222
+        y: 143
         width: 48
         height: 16
       alignment: 0
@@ -453,7 +453,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a5685fe14674eb4e95827aaf33c38b2
+      spriteID: 2f2f33d476cd9af43b0213a5d836762a
       internalID: -5484099497953639554
       vertices: []
       indices: 
@@ -475,7 +475,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97c67e261e98fa34bbb1faa29ba12a46
+      spriteID: d419bc982e30372449ceb6e8816c5e20
       internalID: -3493771047893837931
       vertices: []
       indices: 
@@ -497,7 +497,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79419d5f916c74049aef592477428d5e
+      spriteID: 1df4196eebb08a844b67d324640f1d31
       internalID: 7073594551667695708
       vertices: []
       indices: 
@@ -519,7 +519,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccff2327b6e96f44fbd2c21c94ba85c3
+      spriteID: bc1e1b5c94ff3f44ebcaa8a17d35da34
       internalID: 306295298157388425
       vertices: []
       indices: 
@@ -529,10 +529,10 @@ TextureImporter:
       name: Player Hud_14
       rect:
         serializedVersion: 2
-        x: 39
-        y: 92
-        width: 20
-        height: 20
+        x: 49
+        y: 114
+        width: 12
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,7 +541,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c08f35aec985b341a20f78904efd363
+      spriteID: 361739f51576d9049b3fa6fe2b5e85e3
       internalID: 506518546892336225
       vertices: []
       indices: 
@@ -551,9 +551,31 @@ TextureImporter:
       name: Player Hud_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 68
+        y: 117
+        width: 91
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c7b255652c56042a529418754f4707
+      internalID: 7583598056057886280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Hud_16
+      rect:
+        serializedVersion: 2
+        x: 160
         y: 112
-        width: 118
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -563,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece9d0307d4a3d24aa4ba4d3bdd25228
-      internalID: 7583598056057886280
+      spriteID: 8a29b68a2d45a184da67c362082b16ea
+      internalID: 4685967505587163356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_16
+      name: Player Hud_17
       rect:
         serializedVersion: 2
         x: 192
@@ -585,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b93e6d93277fc4bb75a48d58e65e24
-      internalID: 4685967505587163356
+      spriteID: 97d31e3684ae42d4680b48f42c330cf3
+      internalID: 5136468380965617801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_17
+      name: Player Hud_18
       rect:
         serializedVersion: 2
         x: 214
@@ -607,14 +629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b3eee08cf2653746874c5776126c08a
-      internalID: 5136468380965617801
+      spriteID: 615fc20dbf9a72f4aa85b9a6d1fc4dbd
+      internalID: -4972762386107582899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_18
+      name: Player Hud_19
       rect:
         serializedVersion: 2
         x: 240
@@ -629,14 +651,58 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f2fae74775ca4b4d98bb8b31c0524d9
-      internalID: -4972762386107582899
+      spriteID: da0158bebd0ebc8459617f3f61318619
+      internalID: -694154721867153750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_19
+      name: Player Hud_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e9a4d85629f0149b70066952d904cb
+      internalID: 113260935883402065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Hud_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 98
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da9c65bb881434eaea1d2c091e01bf
+      internalID: 5511523786882449640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Hud_22
       rect:
         serializedVersion: 2
         x: 0
@@ -651,14 +717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae544940d33453441b4bf48dbed47b41
-      internalID: -694154721867153750
+      spriteID: 3f5b8cce221bef947ac399c4769714b4
+      internalID: -2612074593670114880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_20
+      name: Player Hud_23
       rect:
         serializedVersion: 2
         x: 64
@@ -673,14 +739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7677d07718e255042bb56bc667b2bdd5
-      internalID: 113260935883402065
+      spriteID: ef76afe997de49941a02548eff6fccf9
+      internalID: -49827904425186414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_21
+      name: Player Hud_24
       rect:
         serializedVersion: 2
         x: 94
@@ -695,14 +761,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c025ede6c45fa49469d719e3bcc86778
-      internalID: 5511523786882449640
+      spriteID: 08f55c5539ac28646951caf1bc521904
+      internalID: 8482006959180763804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_22
+      name: Player Hud_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 81
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4830a5a5c6e723c4794c7530952090fe
+      internalID: -7735277793589681527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Hud_26
       rect:
         serializedVersion: 2
         x: 144
@@ -717,14 +805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ea38865d11ad5e4f8b6aa7df634eb35
-      internalID: -2612074593670114880
+      spriteID: 2b41597286d0b514a8eb02edd31393b6
+      internalID: -5638437125320023679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_23
+      name: Player Hud_27
       rect:
         serializedVersion: 2
         x: 211
@@ -739,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 340cba04a10980d40bd4f8467912cf0e
-      internalID: -49827904425186414
+      spriteID: 598e40a424333004ab016c0afaaccc5e
+      internalID: -7825313174612925042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_24
+      name: Player Hud_28
       rect:
         serializedVersion: 2
         x: 227
@@ -761,14 +849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f09c95a1babd1934c985be6b800218ce
-      internalID: 8482006959180763804
+      spriteID: f317a684a0824074c85c97986aa3b16e
+      internalID: 727037454330762842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_25
+      name: Player Hud_29
       rect:
         serializedVersion: 2
         x: 257
@@ -783,14 +871,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413c5dc79c1a43d4f81488b45e3cbc68
-      internalID: -7735277793589681527
+      spriteID: e2bf2c9ab7a3034478d56a9302638c22
+      internalID: -3548226002093361976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_26
+      name: Player Hud_30
       rect:
         serializedVersion: 2
         x: 287
@@ -805,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c302243d45edf0549864e727a1fad614
-      internalID: -5638437125320023679
+      spriteID: 0f12f7a211ae87e47bd440438da2346d
+      internalID: 477597800590342071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_27
+      name: Player Hud_31
       rect:
         serializedVersion: 2
         x: 304
@@ -827,14 +915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a77bde81318d81c4aa81ffeeebc81bcf
-      internalID: -7825313174612925042
+      spriteID: 8b8f11e1a2ab84446815a3bc73b1155a
+      internalID: -2934039540447924110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_28
+      name: Player Hud_32
       rect:
         serializedVersion: 2
         x: 144
@@ -849,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4739f4f1540ffd04bb3ac268d9ca7c99
-      internalID: 727037454330762842
+      spriteID: 9f7c76661c89b5f4f8013fed863e9ec5
+      internalID: -8257653418657025629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_29
+      name: Player Hud_33
       rect:
         serializedVersion: 2
         x: 208
@@ -871,14 +959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e63336852a2be194d94345d626bca9c3
-      internalID: -3548226002093361976
+      spriteID: 84d9bf6c1406f334390c5a199a534cfa
+      internalID: -7513753134751626003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_30
+      name: Player Hud_34
       rect:
         serializedVersion: 2
         x: 240
@@ -893,14 +981,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc51485127e70774faeacc06c5325830
-      internalID: 477597800590342071
+      spriteID: 8e7b3c1550935b64cb2b6bb958f00071
+      internalID: -3965658938038743855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_31
+      name: Player Hud_35
       rect:
         serializedVersion: 2
         x: 96
@@ -915,14 +1003,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7954e20f67aec45ae9c0810411385b
-      internalID: -2934039540447924110
+      spriteID: 970ded67de98c15499d624b13560fb74
+      internalID: -1074232137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_32
+      name: Player Hud_36
       rect:
         serializedVersion: 2
         x: 114
@@ -937,17 +1025,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 226a3a1258a975247a25b22246120ae4
-      internalID: -8257653418657025629
+      spriteID: e7ab714b3b40be148bddbdf4931125fb
+      internalID: 2069733311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_33
+      name: Player Hud_37
       rect:
         serializedVersion: 2
-        x: 156
+        x: 131
         y: 26
         width: 40
         height: 38
@@ -959,14 +1047,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c9e412213cdcb42999dda740cae3c8
-      internalID: -7513753134751626003
+      spriteID: b5075c5ae51330047b760c8995681a55
+      internalID: 350637391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_34
+      name: Player Hud_38
       rect:
         serializedVersion: 2
         x: 287
@@ -981,14 +1069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c51ef616d1efa644b61191d8d9f1a58
-      internalID: -3965658938038743855
+      spriteID: f0cac5a8ca7756443a28aee405e8fb02
+      internalID: 1885794472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_35
+      name: Player Hud_39
       rect:
         serializedVersion: 2
         x: 304
@@ -1003,14 +1091,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c2e8fe6c4c36445ba01cf0fa63e61e
-      internalID: -1074232137
+      spriteID: aa880b61625f0df45877c1371ce89db1
+      internalID: -1468406080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_36
+      name: Player Hud_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1025,14 +1113,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d505dbe60ca8a549a777ba26ba58ea9
-      internalID: 2069733311
+      spriteID: 4416f6b1cf9247d4282858672f448b7f
+      internalID: -242092354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_37
+      name: Player Hud_41
       rect:
         serializedVersion: 2
         x: 224
@@ -1047,14 +1135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89414e227e9b5cf40a562b410df9c631
-      internalID: 350637391
+      spriteID: 1b790050fb0d72a4fab216c9c3a49ba5
+      internalID: -1229663839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_38
+      name: Player Hud_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1069,14 +1157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 942f0bc3d3dd70a46b4bcd70f0e789d3
-      internalID: 1885794472
+      spriteID: df005b1f7e7101e478e8fbadb8d93105
+      internalID: 557384532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_39
+      name: Player Hud_43
       rect:
         serializedVersion: 2
         x: 287
@@ -1091,14 +1179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0856c56eb02d64b9fb3175bc715108
-      internalID: -1468406080
+      spriteID: accd1c32d9ac83b449ee0661f7e85123
+      internalID: 1137664609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_40
+      name: Player Hud_44
       rect:
         serializedVersion: 2
         x: 304
@@ -1113,14 +1201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3780e76c79d84944cb53af44345657b6
-      internalID: -242092354
+      spriteID: 532dc226e28401649b8c6adb0a05759e
+      internalID: -1597648017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_41
+      name: Player Hud_45
       rect:
         serializedVersion: 2
         x: 98
@@ -1135,14 +1223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c9828330cc43044b8662f75541f3405
-      internalID: -1229663839
+      spriteID: d8e94950d8c1a5741ad99dd860774f9b
+      internalID: -600754055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_42
+      name: Player Hud_46
       rect:
         serializedVersion: 2
         x: 120
@@ -1157,14 +1245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bb4d2c73ea4bff499a1f7eb41dd24cf
-      internalID: 557384532
+      spriteID: 63ff872736609984494c76dbb2e5cf75
+      internalID: -16490957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_43
+      name: Player Hud_47
       rect:
         serializedVersion: 2
         x: 141
@@ -1179,14 +1267,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0de1c4ba4866fc8408def2a82fbf11c2
-      internalID: 1137664609
+      spriteID: 579aebc5d361f6346bd040a206b1dda6
+      internalID: -2114654132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_44
+      name: Player Hud_48
       rect:
         serializedVersion: 2
         x: 196
@@ -1201,14 +1289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8e63f7818da4c44cbc705f914d8b68c
-      internalID: -1597648017
+      spriteID: 7800956fcf9668642a868a6e3729a1d4
+      internalID: 891323977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_45
+      name: Player Hud_49
       rect:
         serializedVersion: 2
         x: 240
@@ -1223,14 +1311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b42d1c8a072d9c94d95780ca811bd743
-      internalID: -600754055
+      spriteID: 676767fc9c6b8d7468e06260757e891f
+      internalID: -334225531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_46
+      name: Player Hud_50
       rect:
         serializedVersion: 2
         x: 287
@@ -1245,14 +1333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a023afa9b0121499ee34a3d61adb41
-      internalID: -16490957
+      spriteID: fbf94bff16d2b1e4c92d6095372f9258
+      internalID: -1597125050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_47
+      name: Player Hud_51
       rect:
         serializedVersion: 2
         x: 304
@@ -1267,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d75ef429e9c570049815a4374d49fd4b
-      internalID: -2114654132
+      spriteID: f0346d9f2dc55f34ebf7469df6b74394
+      internalID: 765462557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_48
+      name: Player Hud_52
       rect:
         serializedVersion: 2
         x: 98
@@ -1289,14 +1377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ee77967e4aecf54a822fc158e98f468
-      internalID: 891323977
+      spriteID: 2ed4f8dc1c0c34f4da8b6fff62d0224f
+      internalID: 1098652225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_49
+      name: Player Hud_53
       rect:
         serializedVersion: 2
         x: 287
@@ -1311,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3581971ef3c1f6e448b952737401d707
-      internalID: -334225531
+      spriteID: 742b475242ff3f148918e075aa3a30ef
+      internalID: 1793811809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Hud_50
+      name: Player Hud_54
       rect:
         serializedVersion: 2
         x: 304
@@ -1333,8 +1421,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89758e8bb8ff64e40bb2973fdbbc663e
-      internalID: -1597125050
+      spriteID: adb940448a5ff874093f6e369f46bf83
+      internalID: -830964349
       vertices: []
       indices: 
       edges: []
@@ -1404,6 +1492,10 @@ TextureImporter:
       Player Hud_49: -334225531
       Player Hud_5: 4687809839010944144
       Player Hud_50: -1597125050
+      Player Hud_51: 765462557
+      Player Hud_52: 1098652225
+      Player Hud_53: 1793811809
+      Player Hud_54: -830964349
       Player Hud_6: -2289451465732791639
       Player Hud_7: 5484117554233169874
       Player Hud_8: -6378810390238465042

@@ -1,14 +1,15 @@
+using System;
 using UnityEngine;
 
 public class DeadZone : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-   public void Ontrigger2D(other Collider2D)
+   public void OnTriggerEnter2D(Collider2D other)
    {
-       Player_basicPlataform player = other.GetComponent<Player_basicPlataform>();
+       PlayerPlatformer player = other.GetComponent<PlayerPlatformer>();
        if(player != null)
        {
-           player.changeHealth(-1);
+            player.ChangeHealth(-1);// Resets player's health to zero
         }
     }
 }

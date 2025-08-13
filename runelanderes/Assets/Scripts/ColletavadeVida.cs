@@ -1,19 +1,21 @@
-using System.Collection;
-using System.Collection.Generic;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class ColletavadeVida : MonoBeHaviour
+public class ColletavadeVida : MonoBehaviour
 {
-  void OntriggerEnter2D(Collider2D other)
-  {
-    Player_BasicPlataform player = other.GetComponet<Player_BasicPlataform>();
 
-    if (player != null && player.Health<player.Maxheath)
+    void OnTriggerEnter2D(Collider2D other)
+  {
+    PlayerPlatformer player = other.GetComponent<PlayerPlatformer>();
+
+    if (player != null && player.VidaAtual < player.MaxVida)
       {
-        player.changeHealth(1);
+        player.ChangeHealth(1);
         Destroy(gameObject);
       }
   }
-  
+
 }

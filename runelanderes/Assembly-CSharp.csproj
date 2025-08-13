@@ -48,31 +48,34 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\UI ToolKit\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Player_basic_moviment.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
+    <Compile Include="Assets\Scripts\ColletavadeVida.cs" />
     <Compile Include="Assets\Scripts\TruqueMagicos.cs" />
     <Compile Include="Assets\Scripts\MaoMagica.cs" />
     <Compile Include="Assets\Scripts\HudPlayer.cs" />
     <Compile Include="Assets\Scripts\DeadZone.cs" />
-    <Compile Include="Assets\Scripts\ClassBase.cs" />
     <Compile Include="Assets\Scripts\Lifebar.cs" />
     <Compile Include="Assets\Scripts\MapScript.cs" />
     <Compile Include="Assets\Scripts\Progect.cs" />
+    <Compile Include="Assets\Scripts\UIHandler.cs" />
     <Compile Include="Assets\Scripts\CollectableItemData.cs" />
     <Compile Include="Assets\Scripts\2pontoPathrolEnemy.cs" />
     <Compile Include="Assets\Scenes\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\Thunderwave.cs" />
     <Compile Include="Assets\Scripts\CollectableItem.cs" />
-    <Compile Include="Assets\Scripts\ClasseData.cs" />
     <Compile Include="Assets\Scripts\Spell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\UI ToolKit\HealthBar.uss" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\UI ToolKit\UI Documentation.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -88,8 +91,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\UI ToolKit\HeathBar.uss" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\UI ToolKit\HealthBar.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\UI ToolKit\lifeBar.uss" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>

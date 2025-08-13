@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerPlatformer : MonoBehaviour
 {
+    private const float V = 2.0f;
     [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private Transform groundCheck;
 
@@ -27,13 +28,13 @@ public class PlayerPlatformer : MonoBehaviour
     private Vector3 originalScale;
     [Header("Status de vida")]
 
-    public int vida{ get { return vidaAtual; }}
 
-    private float VidaMaxima = 100f;
-
-    public float TimeInvecible = 2.0f;
-    bool isInvincible;
-    float DamageCooldown;
+    public int MaxVida = 5;
+    public int VidaAtual;
+    public int health { get { return VidaAtual; } }
+    public float TimeInvincible = 1f; // Tempo de invencibilidade após receber dano
+    private bool isInvincible = false;
+    private float damageCooldown = 0f; // Tempo restante de invencibilidade
 
     private bool isDead = false;
 
@@ -52,6 +53,8 @@ public class PlayerPlatformer : MonoBehaviour
     {
         PlayerInputActions.Enable();
         originalScale = transform.localScale;
+
+        VidaAtual = MaxVida;
     }
 
     private void OnEnable()
@@ -81,10 +84,10 @@ public class PlayerPlatformer : MonoBehaviour
         {
             playerAnimator.SetBool("JUMP", true);
         }
-        playerAnimator.SetBool("CROUCH", isCrouching, Mathf.Abs(moveInput.x)== 0);
-        if(isInvincible)
+        playerAnimator.SetBool("CROUCH", isCrouching);
+        if (isInvincible)
         {
-            isInvincible= false;
+            isInvincible = false;
         }
 
     }
@@ -123,11 +126,7 @@ public class PlayerPlatformer : MonoBehaviour
             isAttacking = false; // Reseta o ataque após ser executado
 
         }
-        if (isCrouching == true)
-        {
-            isJumping = false; // Reseta o pulo se estiver agachando
-            moveInput = Vector2.zero; // Reseta o movimento horizontal se estiver agachando
-        }
+
         playerAnimator.SetBool("CROUCH", isCrouching);
         // Animação de agachamento
 
@@ -147,12 +146,12 @@ public class PlayerPlatformer : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("enemy")&& !isDead)
+        if (collision.CompareTag("enemy") && !isDead)
         {
             collision.GetComponent<LifebarPlayer>().TakeDamage(10);
             playerAnimator.SetBool("HIT", true);
-            Life -= 10; // Subtrai vida do jogador
-            if (Life <= 0)
+            VidaAtual -= 10; // Subtrai vida do jogador
+            if (VidaAtual <= 0)
             {
                 isDead = true; // Marca o jogador como morto
                 playerAnimator.SetBool("DEATH", true);
@@ -160,17 +159,28 @@ public class PlayerPlatformer : MonoBehaviour
             }
         }
     }
-    public void changeHeath(float amount)
+
+    public void ChangeHealth(int amount)
     {
-        vida = Mathf.clamp(vida + amount, 0, vidaMaxima);
-        if(amount <0)
+        VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
+        if (amount < 0)
         {
-            if(isInvincible)
+            if (isInvincible)
             {
                 return;
             }
             isInvincible = true;
-            damageCooldown= TimeInvincible;
+            damageCooldown = TimeInvincible;
+            if (VidaAtual <= 0)
+            {
+                isDead = true;
+                playerAnimator.SetBool("DEATH", true);
+                Destroy(gameObject);
+            }
+        }
+        VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
+        UIHandler.instance.SetHealthValue(VidaAtual / (float)MaxVida);
     }
+    
     
 }
