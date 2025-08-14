@@ -51,8 +51,7 @@ public class Progect : MonoBehaviour
             bool isEnemy = collision.CompareTag("enemy");
             if (isEnemy)
             {
-
-                collision.GetComponent<LifebarPlayer>().TakeDamage(-1);
+                
             }
             Explodir();
         }

@@ -155,7 +155,6 @@ public class PlayerPlatformer : MonoBehaviour
     {
         if (collision.CompareTag("enemy") && !isDead)
         {
-            collision.GetComponent<LifebarPlayer>().TakeDamage(10);
             playerAnimator.SetBool("HIT", true);
             VidaAtual -= 10; // Subtrai vida do jogador
             if (VidaAtual <= 0)

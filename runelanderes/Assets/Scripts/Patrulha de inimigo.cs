@@ -49,5 +49,9 @@ public class Patrulhadeinimigo : MonoBehaviour
             player.ChangeHealth(-1);
         }
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
+    }
 
 }
