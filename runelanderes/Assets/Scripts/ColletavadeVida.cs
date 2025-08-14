@@ -7,9 +7,9 @@ using UnityEngine.InputSystem;
 public class ColletavadeVida : MonoBehaviour
 {
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collision)
   {
-    PlayerPlatformer player = other.GetComponent<PlayerPlatformer>();
+    PlayerPlatformer player = collision.GetComponent<PlayerPlatformer>();
 
     if (player != null && player.VidaAtual < player.MaxVida)
       {
