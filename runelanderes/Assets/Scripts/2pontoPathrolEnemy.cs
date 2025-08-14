@@ -8,6 +8,7 @@ public class MoveEnemy : MonoBehaviour
     [SerializeField] private Transform[] pontosDoCaminho;
     public float speed = 5f;
     private int pontoAtual = 0;
+    int direction = 1;
 
     [Header("Status")]
 
@@ -17,6 +18,7 @@ public class MoveEnemy : MonoBehaviour
     private Animator Animator;
     [SerializeField] private float raioVision;
     [SerializeField] private int layerAreavisao;
+    public bool broken = true;
 
 
     void Start()
@@ -35,6 +37,24 @@ public class MoveEnemy : MonoBehaviour
     {
         Patrulhar();
     }
+
+    void FixedUpdate()
+    {
+        Animator.SetFloat("Blend", direction);
+        Animator.SetFloat("Blend", 0);
+        if (!broken)
+        {
+            return;
+        }
+    }
+    public void Fix()
+    {
+        broken = false;
+
+        GetComponent<Rigidbody2D>().simulated = false;
+        Animator.SetTrigger("DEATH");
+    }
+
     private void Patrulhar()
     {
         if (pontosDoCaminho.Length == 0) return;
@@ -79,10 +99,15 @@ public class MoveEnemy : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        PlayerPlatformer player = collision.gameObject.GetComponent<PlayerPlatformer>();
+        if (player != null)
         {
-            collision.GetComponent<LifebarPlayer>().TakeDamage(90);
+            player.ChangeHealth(-1);
         }
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
     }
     void OnDrawGizmosSelected()
     {

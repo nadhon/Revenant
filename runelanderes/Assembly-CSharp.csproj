@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Lifebar.cs" />
     <Compile Include="Assets\Scripts\MapScript.cs" />
     <Compile Include="Assets\Scripts\Progect.cs" />
+    <Compile Include="Assets\Scripts\Patrulha de inimigo.cs" />
     <Compile Include="Assets\Scripts\UIHandler.cs" />
     <Compile Include="Assets\Scripts\CollectableItemData.cs" />
     <Compile Include="Assets\Scripts\2pontoPathrolEnemy.cs" />
@@ -85,6 +86,7 @@
     <None Include="Assets\BiteMe Games\Chinese Music\about.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\UI ToolKit\NPCDIalogue.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />

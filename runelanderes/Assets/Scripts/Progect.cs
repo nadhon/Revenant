@@ -5,7 +5,6 @@ public class Progect : MonoBehaviour
 {
     [SerializeField] private float speed = 12f;
     [SerializeField] private float distanciaMaxima = 36f;
-    [SerializeField] private int casterLevel = 1;
     private Vector2 direcao = Vector2.right;
     private Vector2 pontoInicial;
     private Rigidbody2D rb;
@@ -45,33 +44,27 @@ public class Progect : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        MoveEnemy enemy = collision.GetComponent<MoveEnemy>();
         if (isExploding) return;
-        if (collision.CompareTag("enemy" ))
+        if (collision.CompareTag("enemy"))
         {
             bool isEnemy = collision.CompareTag("enemy");
             if (isEnemy)
             {
-                int damage = CalculateDamage();
-                collision.GetComponent<LifebarPlayer>().TakeDamage(damage);
+
+                collision.GetComponent<LifebarPlayer>().TakeDamage(-1);
             }
             Explodir();
         }
+        if (enemy != null)
+        {
+            enemy.Fix();
+        }
+        
         
     }
 
-    private int CalculateDamage()
-    {
-        int dano = 1;
-        if (casterLevel >= 17) dano = 4;
-        else if (casterLevel >= 11) dano = 3;
-        else if (casterLevel >= 5) dano = 2;
 
-        int danoTotal = 0;
-        for (int i = 0; i < dano; i++)
-        {
-            danoTotal += UnityEngine.Random.Range(1, 11); // Simula o lançamento de um dado de 10 faces
-        }
-        return danoTotal;
-    }
+    
         internal void DefinirDirecao(Vector2 direcaoDisparo) => direcao = direcaoDisparo.normalized;
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class PlayerPlatformer : MonoBehaviour
@@ -22,6 +23,7 @@ public class PlayerPlatformer : MonoBehaviour
     private bool isJumping;
 
     private bool isAttacking;
+    public InputAction talkAction;
 
     Animator playerAnimator;
 
@@ -55,6 +57,7 @@ public class PlayerPlatformer : MonoBehaviour
         originalScale = transform.localScale;
 
         VidaAtual = MaxVida;
+        talkAction.Enable();
     }
 
     private void OnEnable()
@@ -89,15 +92,19 @@ public class PlayerPlatformer : MonoBehaviour
         {
             isInvincible = false;
         }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            FindFriend();
+        }
 
     }
 
     private void FixedUpdate()
     {
-        // Movimentação horizontal
+        //Movimentação horizontal
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
-        //Vector2 position = (Vector2)rb.position + Move * moveSpeed * Time.deltaTime;
-        //rb.MovePosition(position);
+        Vector2 position = (Vector2)rb.position + moveInput * moveSpeed * Time.deltaTime;
+        rb.MovePosition(position);
 
         if (moveInput.x < 0)
         {
@@ -180,6 +187,16 @@ public class PlayerPlatformer : MonoBehaviour
         }
         VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
         UIHandler.instance.SetHealthValue(VidaAtual / (float)MaxVida);
+    }
+    void FindFriend()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, moveInput, 1.5f, LayerMask.GetMask("NPC"));
+        if (hit.collider != null)
+        {
+            //NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+            Debug.Log("Rycast has hit the object" + hit.collider.gameObject);
+
+        }
     }
     
     
