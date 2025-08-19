@@ -13,7 +13,7 @@ public class ColletavadeVida : MonoBehaviour
 
     if (player != null && player.VidaAtual < player.MaxVida)
       {
-        player.ChangeHealth(1);
+        player.ChangeHealth(+1);
         Destroy(gameObject);
       }
   }
