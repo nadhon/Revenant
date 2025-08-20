@@ -9,7 +9,7 @@ public class AuraDeDano : MonoBehaviour
        PlayerPlatformer player = other.GetComponent<PlayerPlatformer>();
        if(player != null)
        {
-            player.ChangeHealth(-1);// Resets player's health to zero
+            player.ChangeHealth(-10);// Resets player's health to zero
         }
     }
 }
