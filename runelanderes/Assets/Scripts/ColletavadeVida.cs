@@ -16,16 +16,22 @@ public class ColletavadeVida : MonoBehaviour
 
     if (player != null && player.VidaAtual < player.MaxVida)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       {
         player.ChangeHealth(+1);
         Destroy(gameObject);
       }
 =======
+=======
+>>>>>>> Stashed changes
     {
       player.ChangeHealth(1);
       Destroy(gameObject);
     }
     player.PlayerSound(CollectedClip);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   }
 
