@@ -26,12 +26,12 @@
                 },
                 {
                     "name": "Crouch",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "8ee25ff3-e1e0-4359-8cc2-b3f440e41d5e",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "Press",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Ataque",
@@ -55,6 +55,15 @@
                     "name": "Map",
                     "type": "Button",
                     "id": "247fd912-4d00-49a7-973f-20ab0b4b7072",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interaction",
+                    "type": "Button",
+                    "id": "3bcc4ac1-b949-4847-8871-ecd334b7c0ea",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -252,19 +261,8 @@
                 {
                     "name": "",
                     "id": "91bda487-b926-4ef1-9f2d-1d7e869efcc9",
-                    "path": "<Touchscreen>/touch0/tap",
+                    "path": "<Touchscreen>/primaryTouch/startPosition",
                     "interactions": "Press",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Crouch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6dd64e8d-ee0b-45d0-93c5-7ac823a7cc40",
-                    "path": "<Joystick>/trigger",
-                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Crouch",
@@ -378,6 +376,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Map",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "60e271dd-72dc-4b88-90ba-43b3f6bcb15e",
+                    "path": "<Keyboard>/f",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18b8e20e-2c31-4c5e-8e18-2050f04877e3",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11f18a66-a362-4734-8531-836625fd0901",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

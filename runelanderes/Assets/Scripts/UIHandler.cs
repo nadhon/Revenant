@@ -5,7 +5,6 @@ public class UIHandler : MonoBehaviour
 {
     public static UIHandler instance { get; private set; }
     private VisualElement m_HealthBar;
-
     public float displayTime = 4.0f;
     private VisualElement m_NonPlayerDialogue;
     private float m_TimerDisplay;
@@ -22,6 +21,7 @@ public class UIHandler : MonoBehaviour
         SetHealthValue(1.0f);
         Debug.Log("Achei o erro");
         m_NonPlayerDialogue = uiDocument.rootVisualElement.Q<VisualElement>("NPCDialogue");
+        m_NonPlayerDialogue.style.display = DisplayStyle.None;
         m_TimerDisplay = -1.0f;
     }
 
@@ -45,6 +45,7 @@ public class UIHandler : MonoBehaviour
 
         }
     }
+
     public void DisplayDialogue()
     {
         m_NonPlayerDialogue.style.display = DisplayStyle.Flex;

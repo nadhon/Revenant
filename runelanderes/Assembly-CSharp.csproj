@@ -49,15 +49,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UI ToolKit\HealthBar.cs" />
-    <Compile Include="Assets\Scripts\Player_basic_moviment.cs" />
+    <Compile Include="Assets\Scripts\Aura_de_dano.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
+    <Compile Include="Assets\Scripts\Controller\Player_basic_moviment.cs" />
     <Compile Include="Assets\Scripts\ColletavadeVida.cs" />
     <Compile Include="Assets\Scripts\TruqueMagicos.cs" />
     <Compile Include="Assets\Scripts\MaoMagica.cs" />
+    <Compile Include="Assets\Scripts\Controller\Patrulha de inimigo.cs" />
     <Compile Include="Assets\Scripts\DeadZone.cs" />
     <Compile Include="Assets\Scripts\MapScript.cs" />
     <Compile Include="Assets\Scripts\Progect.cs" />
-    <Compile Include="Assets\Scripts\Patrulha de inimigo.cs" />
     <Compile Include="Assets\Scripts\UIHandler.cs" />
     <Compile Include="Assets\Scripts\NonPlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\CollectableItemData.cs" />
@@ -75,7 +76,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\UI ToolKit\UI Documentation.uxml" />
+    <None Include="Assets\UI ToolKit\NPCDialogue.uss" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -85,7 +86,7 @@
     <None Include="Assets\BiteMe Games\Chinese Music\about.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\UI ToolKit\NPCDIalogue.uxml" />
+    <None Include="Assets\UI ToolKit\NPCDialogue.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -97,6 +98,7 @@
     <None Include="Assets\UI ToolKit\HealthBar.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\UI ToolKit\lifeBar.uss" />
+    <None Include="Assets\GAME\SoundEfects\Creditos.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>

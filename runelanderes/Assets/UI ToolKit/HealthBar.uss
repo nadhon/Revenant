@@ -1,5 +1,5 @@
 .custom-label {
     font-size: 20px;
     -unity-font-style: bold;
-    color: rgb(68, 138, 255);
+    color: rgba(9, 17, 31, 1);
 }

@@ -163,3 +163,6 @@ MonoBehaviour:
   radius: 5
   damage: 16
   pushForce: 5
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128

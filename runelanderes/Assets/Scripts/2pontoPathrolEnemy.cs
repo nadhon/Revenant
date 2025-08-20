@@ -13,6 +13,7 @@ public class MoveEnemy : MonoBehaviour
     [Header("Status")]
 
     public int Life = 90;
+    public int currentLife;
     public Rigidbody2D enemyRb;
     private bool indoParaFrente = true;
     private Animator Animator;
@@ -29,6 +30,7 @@ public class MoveEnemy : MonoBehaviour
         {
             Debug.LogError("Nenhum ponto de caminho definido para o inimigo.");
         }
+        currentLife = Life;
         transform.position = pontosDoCaminho[pontoAtual].position;
     }
 
@@ -47,6 +49,22 @@ public class MoveEnemy : MonoBehaviour
             return;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PlayerPlatformer player = collision.gameObject.GetComponent<PlayerPlatformer>();
+        if (player != null)
+        {
+            player.ChangeHealth(-1);
+
+            Thunderwave();
+        }
+    }
+
+    private void Thunderwave()
+    {
+        Debug.Log("Thunderwave");
+    }
+
     public void Fix()
     {
         broken = false;
@@ -97,40 +115,17 @@ public class MoveEnemy : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    public void ChangeLife(int amount)
     {
-        PlayerPlatformer player = collision.gameObject.GetComponent<PlayerPlatformer>();
-        if (player != null)
+        currentLife = Math.Clamp(currentLife + amount, 0, Life);
+        if (amount < 0)
         {
-            player.ChangeHealth(-1);
-        }
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        Destroy(gameObject);
-    }
-    void OnDrawGizmosSelected()
-    {
-        if (pontosDoCaminho != null && pontosDoCaminho.Length > 0)
-        {
-            Gizmos.color = Color.green;
-            foreach (var ponto in pontosDoCaminho)
+            if (currentLife <= 0)
             {
-                if (ponto != null)
-                {
-                    Gizmos.DrawSphere(ponto.position, 0.2f);
-                }
-            }
-            for (int i = 0; i < pontosDoCaminho.Length; i++)
-            {
-                if (pontosDoCaminho[i] != null)
-                {
-                    Vector3 proximoPonto = pontosDoCaminho[(i + 1) % pontosDoCaminho.Length].position;
-                    Gizmos.DrawLine(pontosDoCaminho[i].position, proximoPonto);
-                }
+                Animator.SetBool("DEATH", true);
+                Destroy(gameObject);
             }
         }
-
-        Gizmos.DrawWireSphere(transform.position, raioVision);
     }
 }

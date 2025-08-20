@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
+using UnityEditor.Timeline;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -17,13 +20,18 @@ public class PlayerPlatformer : MonoBehaviour
     [SerializeField] private float jumpForce = 5f;
 
     public PlayerInputActions PlayerInputActions { get; private set; }
+
+public static UIHandler instance { get; private set; }
+
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isCrouching;
     private bool isJumping;
 
     private bool isAttacking;
-    public InputAction talkAction;
+    public bool talkAction;
+
+    [SerializeField] private AudioSource audioSource;
 
     Animator playerAnimator;
 
@@ -57,7 +65,7 @@ public class PlayerPlatformer : MonoBehaviour
         originalScale = transform.localScale;
 
         VidaAtual = MaxVida;
-        talkAction.Enable();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnEnable()
@@ -68,6 +76,7 @@ public class PlayerPlatformer : MonoBehaviour
         PlayerInputActions.Player.Crouch.performed += ctx => isCrouching = true;
         PlayerInputActions.Player.Crouch.canceled += ctx => isCrouching = false;
         PlayerInputActions.Player.Ataque.performed += ctx => isAttacking = true;
+        PlayerInputActions.Player.Interaction.performed += ctx => talkAction= true;
 
         PlayerInputActions.Player.Enable();
     }
@@ -76,6 +85,7 @@ public class PlayerPlatformer : MonoBehaviour
     {
         PlayerInputActions.Player.Jump.performed -= ctx => isJumping = false;
         PlayerInputActions.Player.Ataque.performed -= ctx => isAttacking = false;
+        PlayerInputActions.Player.Interaction.performed -= ctx => talkAction = false;
         PlayerInputActions.Player.Disable();
     }
     private void Update()
@@ -85,14 +95,18 @@ public class PlayerPlatformer : MonoBehaviour
         playerAnimator.SetBool("RUNNING", Mathf.Abs(moveInput.x) > 0);
         if (isJumping)
         {
-            playerAnimator.SetBool("JUMP", true);
+            playerAnimator.SetTrigger("JUMP");
         }
-        playerAnimator.SetBool("CROUCH", isCrouching);
+        playerAnimator.SetTrigger("CROUCH");
         if (isInvincible)
         {
-            isInvincible = false;
+            damageCooldown -= Time.deltaTime;
+            if (damageCooldown <= 0)
+            {
+                isInvincible = false;
+            }
         }
-        if (Input.GetKeyDown(KeyCode.X))
+        if (talkAction == true)
         {
             FindFriend();
         }
@@ -122,8 +136,9 @@ public class PlayerPlatformer : MonoBehaviour
         // Pular
         if (isJumping && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.y, jumpForce);
             playerAnimator.SetTrigger("JUMP");
+            isJumping = false;
         }
         //Ataque
         if (isAttacking)
@@ -135,9 +150,7 @@ public class PlayerPlatformer : MonoBehaviour
         }
 
         playerAnimator.SetBool("CROUCH", isCrouching);
-        // Animação de agachamento
 
-        // Animação de idle
 
         playerAnimator.SetBool("IDLE", moveInput.x == 0);
 
@@ -181,8 +194,9 @@ public class PlayerPlatformer : MonoBehaviour
             {
                 isDead = true;
                 playerAnimator.SetBool("DEATH", true);
-                Destroy(gameObject);
+                GetComponent<PlayerPlatformer>().enabled = false;
             }
+            
         }
         VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
         UIHandler.instance.SetHealthValue(VidaAtual / (float)MaxVida);
@@ -192,11 +206,25 @@ public class PlayerPlatformer : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, moveInput, 1.5f, LayerMask.GetMask("NPC"));
         if (hit.collider != null)
         {
-            //NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
-            Debug.Log("Rycast has hit the object" + hit.collider.gameObject);
+            NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+            if (character != null)
+            {
+                UIHandler.instance.DisplayDialogue();
+            }
 
         }
     }
-    
-    
+    public void PlaySound(AudioClip walk)
+    {
+        if (moveInput.x != 0 && !audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(walk);
+        }
+    }
+
+    internal void PlayerSound(AudioClip collectedClip)
+    {
+        audioSource.PlayOneShot(collectedClip);
+    }
+
 }

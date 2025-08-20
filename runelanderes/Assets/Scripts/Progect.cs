@@ -9,7 +9,12 @@ public class Progect : MonoBehaviour
     private Vector2 pontoInicial;
     private Rigidbody2D rb;
     private Animator anim;
+    private int dano;
 
+    public Progect(int dano)
+    {
+        this.dano = dano;
+    }
 
     private bool isExploding = false;
 
@@ -42,28 +47,20 @@ public class Progect : MonoBehaviour
         anim.SetBool("EXPLOSION", true);
         Destroy(gameObject, 0.5f); // Destroy after animation plays
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        MoveEnemy enemy = collision.GetComponent<MoveEnemy>();
-        if (isExploding) return;
-        if (collision.CompareTag("enemy"))
-        {
-            bool isEnemy = collision.CompareTag("enemy");
-            if (isEnemy)
-            {
-                
-            }
-            Explodir();
-        }
+        MoveEnemy enemy = other.GetComponent<MoveEnemy>();
+
         if (enemy != null)
         {
             enemy.Fix();
         }
-        
-        
+        else if (other.CompareTag("Wall") || other.CompareTag("ground"))
+        {
+            Destroy(gameObject);
+        }  
     }
 
 
-    
-        internal void DefinirDirecao(Vector2 direcaoDisparo) => direcao = direcaoDisparo.normalized;
+    internal void DefinirDirecao(Vector2 direcaoDisparo) => direcao = direcaoDisparo.normalized;
 }
