@@ -9,7 +9,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerPlatformer : MonoBehaviour
 {
-    private const float V = 2.0f;
+    [Header("Movimentos")]
+    public PlayerInputActions PlayerInputActions { get; private set; }
     [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private Transform groundCheck;
 
@@ -19,9 +20,8 @@ public class PlayerPlatformer : MonoBehaviour
     [Tooltip("Speed height.")]
     [SerializeField] private float jumpForce = 5f;
 
-    public PlayerInputActions PlayerInputActions { get; private set; }
 
-public static UIHandler instance { get; private set; }
+    public static UIHandler instance { get; private set; }
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -36,6 +36,7 @@ public static UIHandler instance { get; private set; }
     Animator playerAnimator;
 
     private Vector3 originalScale;
+
     [Header("Status de vida")]
 
 
@@ -70,7 +71,7 @@ public static UIHandler instance { get; private set; }
 
     private void OnEnable()
     {
-        PlayerInputActions.Player.Jump.performed += ctx => isJumping = true;
+        PlayerInputActions.Player.Jump.started += ctx => isJumping = true;
         PlayerInputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         PlayerInputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         PlayerInputActions.Player.Crouch.performed += ctx => isCrouching = true;
@@ -83,8 +84,8 @@ public static UIHandler instance { get; private set; }
 
     private void OnDisable()
     {
-        PlayerInputActions.Player.Jump.performed -= ctx => isJumping = false;
-        PlayerInputActions.Player.Ataque.performed -= ctx => isAttacking = false;
+        PlayerInputActions.Player.Jump.started -= ctx => isJumping = false;
+        PlayerInputActions.Player.Ataque.performed -= ctx => isAttacking = true;
         PlayerInputActions.Player.Interaction.performed -= ctx => talkAction = false;
         PlayerInputActions.Player.Disable();
     }
@@ -109,6 +110,7 @@ public static UIHandler instance { get; private set; }
         if (talkAction == true)
         {
             FindFriend();
+            talkAction = false;
         }
 
     }
@@ -116,8 +118,7 @@ public static UIHandler instance { get; private set; }
     private void FixedUpdate()
     {
         //Movimentação horizontal
-        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
-        Vector2 position = (Vector2)rb.position + moveInput * moveSpeed * Time.deltaTime;
+        Vector2 position = rb.position + moveInput * moveSpeed * Time.deltaTime;
         rb.MovePosition(position);
 
         if (moveInput.x < 0)
@@ -131,30 +132,25 @@ public static UIHandler instance { get; private set; }
         playerAnimator.SetBool("RUNNING", moveInput.x != 0);
 
         // Checar se está no chão
-        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        bool IsGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
         // Pular
-        if (isJumping && isGrounded)
+        if (isJumping && IsGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.y, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             playerAnimator.SetTrigger("JUMP");
             isJumping = false;
         }
+        //Agachamento
+        playerAnimator.SetBool("CROUCH", isCrouching);
         //Ataque
         if (isAttacking)
         {
             playerAnimator.SetTrigger("ATAQUE");
-            playerAnimator.SetBool("CROUCH", isCrouching); // Reseta o agachamento após o ataque
             isAttacking = false; // Reseta o ataque após ser executado
 
         }
 
-        playerAnimator.SetBool("CROUCH", isCrouching);
-
-
-        playerAnimator.SetBool("IDLE", moveInput.x == 0);
-
-        isJumping = false;
     }
     private void OnDrawGizmosSelected()
     {
