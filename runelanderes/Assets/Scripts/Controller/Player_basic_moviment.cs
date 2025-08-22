@@ -112,6 +112,7 @@ public class PlayerPlatformer : MonoBehaviour
             FindFriend();
             talkAction = false;
         }
+        
 
     }
 
@@ -129,20 +130,24 @@ public class PlayerPlatformer : MonoBehaviour
         {
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Vira para a direita
         }
-        playerAnimator.SetBool("RUNNING", moveInput.x != 0);
-
-        // Checar se está no chão
-        bool IsGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-
+        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        if (isGrounded &&  !isJumping)
+        {
+            playerAnimator.SetBool("JUMP", false);
+        }
         // Pular
-        if (isJumping && IsGrounded)
+        if (isJumping && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            playerAnimator.SetTrigger("JUMP");
-            isJumping = false;
         }
+
+        isJumping = false;
         //Agachamento
-        playerAnimator.SetBool("CROUCH", isCrouching);
+        if (isCrouching == true)
+        {
+            rb.linearVelocity = Vector2.zero;
+            playerAnimator.SetTrigger("CROUCH");
+        }
         //Ataque
         if (isAttacking)
         {
