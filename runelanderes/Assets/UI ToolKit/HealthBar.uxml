@@ -6,7 +6,7 @@
         <ui:VisualElement name="HealthBar" data-source="project://database/Assets/UI%20ToolKit/HealthBar.uss?fileID=7433441132597879392&amp;guid=c1cc3ab0f55274244b6f45d758b9dcc6&amp;type=3#HealthBar" style="flex-grow: 0; position: absolute; height: 105px; width: 359px; background-image: url(&quot;project://database/Assets/GAME/Maps/Player%20Hud.png?fileID=-8257653418657025629&amp;guid=57bddd134eae2b1498fac65a7718086e&amp;type=3#Player Hud_32&quot;); background-size: 100% 100%; top: 28px; left: 75px; flex-direction: column; flex-basis: 0; -unity-slice-scale: initial; min-width: auto; min-height: auto; max-width: none; max-height: none; right: auto; bottom: auto;" />
         <ui:VisualElement name="Face" usage-hints="-1" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/GAME/Personagens_Jogaveis/demon/Demon.png?fileID=7698832919083478947&amp;guid=8e538257d957a2f49a0fe9fbca41f8cb&amp;type=3#Demon_58&quot;); background-size: 20% 20%; background-position-x: left 20px; background-position-y: top 80px; -unity-background-scale-mode: scale-to-fit; width: 141px; align-items: flex-start; justify-content: center; flex-direction: column-reverse; position: absolute; height: 163px; top: 20px; left: -159px;" />
     </ui:VisualElement>
-    <ui:Instance template="NPCDialogue" style="top: 665px; right: 204px; left: 107px; bottom: 232px; position: absolute; width: auto; height: auto;">
+    <ui:Instance template="NPCDialogue" style="top: 59%; right: 10%; left: 10%; bottom: 0%; position: relative; width: auto; height: auto;">
         <AttributeOverrides element-name="NonPlayerDialogue" tabindex="1" />
     </ui:Instance>
 </ui:UXML>

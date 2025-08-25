@@ -71,20 +71,20 @@ public class PlayerPlatformer : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerInputActions.Player.Jump.started += ctx => isJumping = true;
+        PlayerInputActions.Player.Jump.performed += ctx => isJumping = true;
         PlayerInputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         PlayerInputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         PlayerInputActions.Player.Crouch.performed += ctx => isCrouching = true;
         PlayerInputActions.Player.Crouch.canceled += ctx => isCrouching = false;
         PlayerInputActions.Player.Ataque.performed += ctx => isAttacking = true;
-        PlayerInputActions.Player.Interaction.performed += ctx => talkAction= true;
+        PlayerInputActions.Player.Interaction.performed += ctx => talkAction = true;
 
         PlayerInputActions.Player.Enable();
     }
 
     private void OnDisable()
     {
-        PlayerInputActions.Player.Jump.started -= ctx => isJumping = false;
+        PlayerInputActions.Player.Jump.performed -= ctx => isJumping = false;
         PlayerInputActions.Player.Ataque.performed -= ctx => isAttacking = true;
         PlayerInputActions.Player.Interaction.performed -= ctx => talkAction = false;
         PlayerInputActions.Player.Disable();
@@ -97,8 +97,9 @@ public class PlayerPlatformer : MonoBehaviour
         if (isJumping)
         {
             playerAnimator.SetTrigger("JUMP");
+            isJumping = false;
+            Debug.Log("Pulei otario");
         }
-        playerAnimator.SetTrigger("CROUCH");
         if (isInvincible)
         {
             damageCooldown -= Time.deltaTime;
@@ -112,15 +113,17 @@ public class PlayerPlatformer : MonoBehaviour
             FindFriend();
             talkAction = false;
         }
-        
+        isJumping = false;
+        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        Debug.Log("Grounded: " + isGrounded);
+
 
     }
 
     private void FixedUpdate()
     {
         //Movimentação horizontal
-        Vector2 position = rb.position + moveInput * moveSpeed * Time.deltaTime;
-        rb.MovePosition(position);
+        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
         if (moveInput.x < 0)
         {
@@ -131,22 +134,26 @@ public class PlayerPlatformer : MonoBehaviour
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z); // Vira para a direita
         }
         bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        if (isGrounded &&  !isJumping)
+        if (isGrounded && isJumping)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.y, jumpForce);
+            playerAnimator.SetBool("JUMP", true);
+            Debug.Log("Pulei otario");
+
+            isJumping = false;
+        }
+        if (isGrounded && rb.linearVelocity.y <= 0.01f)
         {
             playerAnimator.SetBool("JUMP", false);
         }
         // Pular
-        if (isJumping && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
 
-        isJumping = false;
+            isJumping = false;
+
         //Agachamento
-        if (isCrouching == true)
+        if (isCrouching)
         {
-            rb.linearVelocity = Vector2.zero;
-            playerAnimator.SetTrigger("CROUCH");
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
         //Ataque
         if (isAttacking)
@@ -161,21 +168,21 @@ public class PlayerPlatformer : MonoBehaviour
     {
         if (groundCheck != null)
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, 0.2f);
+            Gizmos.color = Color.greenYellow;
+            Gizmos.DrawWireSphere(groundCheck.position, 0.8f);
         }
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(transform.position, groundCheck.position);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy") && !isDead)
         {
             playerAnimator.SetBool("HIT", true);
-            VidaAtual -= 10; // Subtrai vida do jogador
-            if (VidaAtual <= 0)
+            MoveEnemy enemy = collision.GetComponent<MoveEnemy>();
+            if (enemy != null)
             {
-                isDead = true; // Marca o jogador como morto
-                playerAnimator.SetBool("DEATH", true);
-                Destroy(gameObject); // Destrói o jogador se a vida chegar a zero
+                ChangeHealth(-enemy.Damage);
             }
         }
     }
@@ -194,10 +201,10 @@ public class PlayerPlatformer : MonoBehaviour
             if (VidaAtual <= 0)
             {
                 isDead = true;
-                playerAnimator.SetBool("DEATH", true);
+                playerAnimator.SetTrigger("DEATH");
                 GetComponent<PlayerPlatformer>().enabled = false;
             }
-            
+
         }
         VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
         UIHandler.instance.SetHealthValue(VidaAtual / (float)MaxVida);
@@ -222,10 +229,10 @@ public class PlayerPlatformer : MonoBehaviour
             audioSource.PlayOneShot(walk);
         }
     }
-
-    internal void PlayerSound(AudioClip collectedClip)
+    
+    public void PlayerSound(AudioClip clip)
     {
-        audioSource.PlayOneShot(collectedClip);
+        audioSource.PlayOneShot(clip);
     }
 
 }

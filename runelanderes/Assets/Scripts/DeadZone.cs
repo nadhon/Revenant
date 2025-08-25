@@ -9,7 +9,7 @@ public class DeadZone : MonoBehaviour
        PlayerPlatformer player = other.GetComponent<PlayerPlatformer>();
        if(player != null)
        {
-            player.ChangeHealth(-player.MaxVida);// Resets player's health to zero
+            player.ChangeHealth(-player.MaxVida); // Resets player's health to zero
         }
     }
 }

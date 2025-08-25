@@ -8,7 +8,7 @@ public class MoveEnemy : MonoBehaviour
     [SerializeField] private Transform[] pontosDoCaminho;
     public float speed = 5f;
     private int pontoAtual = 0;
-    int direction = 1;
+    public int direction = 1;
 
     [Header("Status")]
 
@@ -20,6 +20,9 @@ public class MoveEnemy : MonoBehaviour
     [SerializeField] private float raioVision;
     [SerializeField] private int layerAreavisao;
     public bool broken = true;
+    [SerializeField] private int damage = 1;
+
+    public int Damage => damage;
 
 
     void Start()
@@ -42,8 +45,6 @@ public class MoveEnemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        Animator.SetFloat("Blend", direction);
-        Animator.SetFloat("Blend", 0);
         if (!broken)
         {
             return;
@@ -55,15 +56,9 @@ public class MoveEnemy : MonoBehaviour
         if (player != null)
         {
             player.ChangeHealth(-1);
-
-            Thunderwave();
         }
     }
 
-    private void Thunderwave()
-    {
-        Debug.Log("Thunderwave");
-    }
 
     public void Fix()
     {
