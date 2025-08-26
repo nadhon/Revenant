@@ -1195,6 +1195,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &161042094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8351194871790316155, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+  m_PrefabInstance: {fileID: 8088669463680385704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &197857323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +1530,7 @@ Transform:
   m_GameObject: {fileID: 291159317}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.64150965, y: 5.54, z: -10}
+  m_LocalPosition: {x: 0, y: 9.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1559,8 +1564,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AssetsPPU: 16
-  m_RefResolutionX: 640
-  m_RefResolutionY: 360
+  m_RefResolutionX: 840
+  m_RefResolutionY: 330
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 1
@@ -18124,6 +18129,11 @@ MonoBehaviour:
   prefab: {fileID: 1042586191072822706, guid: 5884fb238a5c7d24fbcfb9718ebfeee0, type: 3}
   firePoint: {fileID: 1314599627}
   timeBetweenShots: 0.5
+--- !u!82 &1699087198 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 495454067804434099, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+  m_PrefabInstance: {fileID: 8088669463680385704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1725258804
 GameObject:
   m_ObjectHideFlags: 0
@@ -35609,21 +35619,45 @@ PrefabInstance:
       propertyPath: m_SleepingMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1237528345170886361, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: MaxVida
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: VidaAtual
-      value: 8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: moveSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: talkAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1699087198}
+    - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 161042094}
+    - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: TimeInvincible
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: talkAction.m_Name
       value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Path
@@ -35870,11 +35904,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8351194871790316155, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05
+      value: 0.10000305
       objectReference: {fileID: 0}
     - target: {fileID: 8351194871790316155, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9
+      value: -3.24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -18,7 +18,7 @@ public class PlayerPlatformer : MonoBehaviour
 
     [Header("Jumping ")]
     [Tooltip("Speed height.")]
-    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float jumpForce = 10f;
 
 
     public static UIHandler instance { get; private set; }
@@ -94,12 +94,7 @@ public class PlayerPlatformer : MonoBehaviour
         // Atualizar animação de movimento
         playerAnimator.SetBool("IDLE", moveInput.x == 0);
         playerAnimator.SetBool("RUNNING", Mathf.Abs(moveInput.x) > 0);
-        if (isJumping)
-        {
-            playerAnimator.SetTrigger("JUMP");
-            isJumping = false;
-            Debug.Log("Pulei otario");
-        }
+        
         if (isInvincible)
         {
             damageCooldown -= Time.deltaTime;
@@ -113,9 +108,7 @@ public class PlayerPlatformer : MonoBehaviour
             FindFriend();
             talkAction = false;
         }
-        isJumping = false;
-        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        Debug.Log("Grounded: " + isGrounded);
+       
 
 
     }
@@ -136,10 +129,9 @@ public class PlayerPlatformer : MonoBehaviour
         bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
         if (isGrounded && isJumping)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.y, jumpForce);
-            playerAnimator.SetBool("JUMP", true);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            playerAnimator.SetTrigger("JUMP");
             Debug.Log("Pulei otario");
-
             isJumping = false;
         }
         if (isGrounded && rb.linearVelocity.y <= 0.01f)
@@ -154,6 +146,8 @@ public class PlayerPlatformer : MonoBehaviour
         if (isCrouching)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            playerAnimator.SetBool("CROUCH", true);
+            
         }
         //Ataque
         if (isAttacking)
