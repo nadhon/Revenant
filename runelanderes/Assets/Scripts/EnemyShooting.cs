@@ -21,7 +21,7 @@ public class EnemyShooting : MonoBehaviour
         float distance = Vector2.Distance(firePoint.position, player.transform.position);
         if (timer > 2 && distance < 10)
         {
-            timer = 0;
+            timer = 0.2f;
             Shoot();
         }
     }

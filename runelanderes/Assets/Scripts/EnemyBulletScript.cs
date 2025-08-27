@@ -8,7 +8,7 @@ public class EnemyBulletScript : MonoBehaviour
 
     private Vector2 pontoInicial;
 
-    private Animator anim;
+    
 
     public int damage = 0;
 
@@ -23,7 +23,6 @@ public class EnemyBulletScript : MonoBehaviour
 
         float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
         rb.rotation = rot;
-        anim = GetComponent<Animator>();
     }
 
 
@@ -32,7 +31,11 @@ public class EnemyBulletScript : MonoBehaviour
         float distanciaPercorrida = Vector2.Distance(pontoInicial, transform.position);
         if (distanciaPercorrida > 10f)
         {
-            anim.SetTrigger("Ataque");
+            transform.localScale = new Vector3(0, 0, 0);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 }

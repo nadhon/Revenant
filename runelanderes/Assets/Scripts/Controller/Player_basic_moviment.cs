@@ -147,8 +147,10 @@ public class PlayerPlatformer : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             playerAnimator.SetBool("CROUCH", true);
+
             
         }
+            isCrouching = false;
         //Ataque
         if (isAttacking)
         {
