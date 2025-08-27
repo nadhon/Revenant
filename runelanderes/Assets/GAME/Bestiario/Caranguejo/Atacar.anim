@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: JUMP HIT
+  m_Name: Atacar
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 715643325365350381, guid: 10a0ebcc860f2d345a220bf389b8632b, type: 3}
-    - time: 0.16666667
-      value: {fileID: -173116999984890958, guid: 10a0ebcc860f2d345a220bf389b8632b, type: 3}
+      value: {fileID: 1110487023839840515, guid: 139151426d0ff4e4880676f2e7d622d0, type: 3}
+    - time: 0.31666666
+      value: {fileID: 3490030524907076563, guid: 139151426d0ff4e4880676f2e7d622d0, type: 3}
+    - time: 0.6333333
+      value: {fileID: 3229190673973199909, guid: 139151426d0ff4e4880676f2e7d622d0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,14 +48,15 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 715643325365350381, guid: 10a0ebcc860f2d345a220bf389b8632b, type: 3}
-    - {fileID: -173116999984890958, guid: 10a0ebcc860f2d345a220bf389b8632b, type: 3}
+    - {fileID: 1110487023839840515, guid: 139151426d0ff4e4880676f2e7d622d0, type: 3}
+    - {fileID: 3490030524907076563, guid: 139151426d0ff4e4880676f2e7d622d0, type: 3}
+    - {fileID: 3229190673973199909, guid: 139151426d0ff4e4880676f2e7d622d0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.18333334
+    m_StopTime: 0.65
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

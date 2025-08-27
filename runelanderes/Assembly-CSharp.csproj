@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UI ToolKit\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\EnemyShooting.cs" />
     <Compile Include="Assets\Scripts\Aura_de_dano.cs" />
     <Compile Include="Assets\Scripts\Camera_Simples.cs" />
     <Compile Include="Assets\Scripts\Controller\Player_basic_moviment.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Assets\Scripts\NonPlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\CollectableItemData.cs" />
     <Compile Include="Assets\Scripts\2pontoPathrolEnemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyBulletScript.cs" />
     <Compile Include="Assets\Scenes\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\Thunderwave.cs" />
     <Compile Include="Assets\Scripts\CollectableItem.cs" />

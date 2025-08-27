@@ -314,12 +314,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 223
-        width: 16
-        height: 14
+        x: 1
+        y: 224
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 223
-        width: 16
-        height: 14
+        x: 17
+        y: 224
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 223
-        width: 18
-        height: 14
+        x: 32
+        y: 224
+        width: 16
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 223
-        width: 18
-        height: 12
+        x: 49
+        y: 224
+        width: 16
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 223
-        width: 18
-        height: 8
+        x: 66
+        y: 224
+        width: 16
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 223
-        width: 18
-        height: 17
+        x: 83
+        y: 224
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_6
       rect:
         serializedVersion: 2
-        x: 82
-        y: 207
-        width: 18
-        height: 17
+        x: 100
+        y: 224
+        width: 29
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_7
       rect:
         serializedVersion: 2
-        x: 99
-        y: 223
-        width: 31
-        height: 17
+        x: 130
+        y: 224
+        width: 32
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_8
       rect:
         serializedVersion: 2
-        x: 99
-        y: 207
-        width: 31
-        height: 17
+        x: 163
+        y: 224
+        width: 24
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_9
       rect:
         serializedVersion: 2
-        x: 129
-        y: 223
-        width: 34
-        height: 11
+        x: 190
+        y: 192
+        width: 38
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_10
       rect:
         serializedVersion: 2
-        x: 162
-        y: 223
-        width: 26
-        height: 11
+        x: 370
+        y: 192
+        width: 40
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_11
       rect:
         serializedVersion: 2
-        x: 189
-        y: 191
+        x: 411
+        y: 192
         width: 40
-        height: 34
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +578,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_12
       rect:
         serializedVersion: 2
-        x: 233
-        y: 191
-        width: 43
+        x: 452
+        y: 192
+        width: 40
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,12 +600,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_13
       rect:
         serializedVersion: 2
-        x: 369
-        y: 191
-        width: 42
-        height: 34
+        x: 493
+        y: 192
+        width: 40
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -622,12 +622,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_14
       rect:
         serializedVersion: 2
-        x: 410
-        y: 191
-        width: 42
-        height: 34
+        x: 534
+        y: 192
+        width: 40
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -644,12 +644,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_15
       rect:
         serializedVersion: 2
-        x: 451
-        y: 191
-        width: 42
-        height: 34
+        x: 575
+        y: 192
+        width: 40
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_16
       rect:
         serializedVersion: 2
-        x: 492
-        y: 191
-        width: 42
-        height: 34
+        x: 620
+        y: 192
+        width: 40
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -688,12 +688,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_17
       rect:
         serializedVersion: 2
-        x: 533
-        y: 191
-        width: 42
-        height: 34
+        x: 661
+        y: 207
+        width: 40
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -710,12 +710,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_18
       rect:
         serializedVersion: 2
-        x: 574
-        y: 191
-        width: 42
-        height: 34
+        x: 702
+        y: 192
+        width: 40
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -732,12 +732,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_19
       rect:
         serializedVersion: 2
-        x: 619
-        y: 191
-        width: 42
-        height: 34
+        x: 1
+        y: 208
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -754,12 +754,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_20
       rect:
         serializedVersion: 2
-        x: 660
-        y: 206
-        width: 42
-        height: 34
+        x: 17
+        y: 208
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -776,12 +776,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_21
       rect:
         serializedVersion: 2
-        x: 701
-        y: 191
-        width: 42
-        height: 38
+        x: 32
+        y: 208
+        width: 16
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -798,12 +798,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 207
+        x: 49
+        y: 208
         width: 16
-        height: 14
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -820,12 +820,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_23
       rect:
         serializedVersion: 2
-        x: 16
-        y: 207
+        x: 66
+        y: 208
         width: 16
-        height: 14
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -842,12 +842,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_24
       rect:
         serializedVersion: 2
-        x: 31
-        y: 207
-        width: 18
-        height: 14
+        x: 83
+        y: 208
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -864,12 +864,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_25
       rect:
         serializedVersion: 2
-        x: 48
-        y: 207
-        width: 18
-        height: 12
+        x: 100
+        y: 208
+        width: 29
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -886,12 +886,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_26
       rect:
         serializedVersion: 2
-        x: 65
-        y: 207
-        width: 18
-        height: 8
+        x: 130
+        y: 208
+        width: 32
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -908,12 +908,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_27
       rect:
         serializedVersion: 2
-        x: 82
-        y: 191
-        width: 18
-        height: 17
+        x: 163
+        y: 208
+        width: 24
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -930,12 +930,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_28
       rect:
         serializedVersion: 2
-        x: 99
-        y: 191
-        width: 31
-        height: 17
+        x: 234
+        y: 192
+        width: 41
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -952,12 +952,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_29
       rect:
         serializedVersion: 2
-        x: 129
-        y: 207
-        width: 34
-        height: 11
+        x: 279
+        y: 192
+        width: 42
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -974,12 +974,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_30
       rect:
         serializedVersion: 2
-        x: 162
-        y: 207
-        width: 26
-        height: 11
+        x: 326
+        y: 192
+        width: 43
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -996,12 +996,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_31
       rect:
         serializedVersion: 2
-        x: 278
-        y: 191
-        width: 44
-        height: 28
+        x: 1
+        y: 192
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1018,12 +1018,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_32
       rect:
         serializedVersion: 2
-        x: 325
-        y: 191
-        width: 45
-        height: 24
+        x: 17
+        y: 192
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1040,12 +1040,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 191
+        x: 32
+        y: 192
         width: 16
-        height: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1062,12 +1062,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_34
       rect:
         serializedVersion: 2
-        x: 16
-        y: 191
+        x: 49
+        y: 192
         width: 16
-        height: 14
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1084,12 +1084,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_35
       rect:
         serializedVersion: 2
-        x: 31
-        y: 191
-        width: 18
-        height: 14
+        x: 66
+        y: 192
+        width: 16
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1106,12 +1106,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_36
       rect:
         serializedVersion: 2
-        x: 48
-        y: 191
-        width: 18
-        height: 12
+        x: 83
+        y: 192
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1128,12 +1128,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_37
       rect:
         serializedVersion: 2
-        x: 65
-        y: 191
-        width: 18
-        height: 8
+        x: 100
+        y: 192
+        width: 29
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1150,12 +1150,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_38
       rect:
         serializedVersion: 2
-        x: 129
-        y: 191
-        width: 34
-        height: 11
+        x: 130
+        y: 192
+        width: 32
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1172,12 +1172,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_39
       rect:
         serializedVersion: 2
-        x: 162
-        y: 191
-        width: 26
-        height: 11
+        x: 163
+        y: 192
+        width: 24
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1194,12 +1194,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_40
       rect:
         serializedVersion: 2
-        x: 4
-        y: 79
-        width: 59
-        height: 86
+        x: 0
+        y: 80
+        width: 57
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1216,12 +1216,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_41
       rect:
         serializedVersion: 2
-        x: 66
-        y: 79
-        width: 53
-        height: 86
+        x: 62
+        y: 80
+        width: 51
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1238,12 +1238,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_42
       rect:
         serializedVersion: 2
-        x: 119
-        y: 79
-        width: 52
-        height: 86
+        x: 120
+        y: 80
+        width: 50
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1260,12 +1260,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_43
       rect:
         serializedVersion: 2
-        x: 175
-        y: 79
-        width: 51
-        height: 86
+        x: 176
+        y: 80
+        width: 49
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1282,12 +1282,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_44
       rect:
         serializedVersion: 2
-        x: 226
-        y: 79
-        width: 51
-        height: 86
+        x: 227
+        y: 80
+        width: 49
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1304,12 +1304,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_45
       rect:
         serializedVersion: 2
-        x: 276
-        y: 79
-        width: 51
-        height: 86
+        x: 277
+        y: 80
+        width: 49
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1326,12 +1326,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_46
       rect:
         serializedVersion: 2
-        x: 328
-        y: 79
-        width: 51
-        height: 70
+        x: 329
+        y: 80
+        width: 49
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1348,12 +1348,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_47
       rect:
         serializedVersion: 2
-        x: 519
-        y: 79
-        width: 52
-        height: 64
+        x: 578
+        y: 80
+        width: 44
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1370,12 +1370,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_48
       rect:
         serializedVersion: 2
-        x: 565
-        y: 79
-        width: 46
-        height: 80
+        x: 660
+        y: 144
+        width: 41
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1392,12 +1392,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_49
       rect:
         serializedVersion: 2
-        x: 659
-        y: 143
-        width: 43
-        height: 24
+        x: 702
+        y: 144
+        width: 40
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1414,12 +1414,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_50
       rect:
         serializedVersion: 2
-        x: 701
-        y: 143
-        width: 42
-        height: 38
+        x: 384
+        y: 80
+        width: 50
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1436,12 +1436,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_51
       rect:
         serializedVersion: 2
-        x: 383
-        y: 79
-        width: 52
-        height: 44
+        x: 435
+        y: 80
+        width: 84
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1458,12 +1458,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_52
       rect:
         serializedVersion: 2
-        x: 434
-        y: 79
-        width: 86
-        height: 51
+        x: 520
+        y: 80
+        width: 50
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1480,12 +1480,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_53
       rect:
         serializedVersion: 2
-        x: 623
-        y: 90
-        width: 36
-        height: 40
+        x: 624
+        y: 91
+        width: 34
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1502,12 +1502,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_54
       rect:
         serializedVersion: 2
-        x: 660
-        y: 95
-        width: 40
-        height: 36
+        x: 661
+        y: 96
+        width: 38
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1524,12 +1524,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_55
       rect:
         serializedVersion: 2
-        x: 699
-        y: 95
-        width: 40
-        height: 35
+        x: 700
+        y: 96
+        width: 38
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1546,12 +1546,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_56
       rect:
         serializedVersion: 2
-        x: 737
-        y: 97
-        width: 51
-        height: 35
+        x: 738
+        y: 98
+        width: 49
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1569,11 +1569,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
-        width: 51
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 50
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1590,12 +1590,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_58
       rect:
         serializedVersion: 2
-        x: 51
-        y: 31
-        width: 50
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 59
+        y: 32
+        width: 48
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1612,12 +1612,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_59
       rect:
         serializedVersion: 2
-        x: 101
-        y: 31
-        width: 48
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 114
+        y: 32
+        width: 46
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1634,12 +1634,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_60
       rect:
         serializedVersion: 2
-        x: 145
-        y: 31
-        width: 54
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 162
+        y: 32
+        width: 52
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1656,12 +1656,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_61
       rect:
         serializedVersion: 2
-        x: 198
-        y: 31
-        width: 54
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 215
+        y: 32
+        width: 52
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1678,12 +1678,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_62
       rect:
         serializedVersion: 2
-        x: 251
-        y: 31
-        width: 54
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 268
+        y: 32
+        width: 52
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1700,12 +1700,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_63
       rect:
         serializedVersion: 2
-        x: 305
-        y: 31
-        width: 48
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322
+        y: 32
+        width: 46
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5714286}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1722,12 +1722,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_64
       rect:
         serializedVersion: 2
-        x: 352
-        y: 31
-        width: 50
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 368
+        y: 32
+        width: 48
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1744,12 +1744,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_65
       rect:
         serializedVersion: 2
-        x: 623
-        y: 51
-        width: 35
-        height: 40
+        x: 624
+        y: 52
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1766,12 +1766,12 @@ TextureImporter:
       name: inimigos basicos e primeiro boss_66
       rect:
         serializedVersion: 2
-        x: 623
-        y: 2
-        width: 35
-        height: 51
+        x: 624
+        y: 3
+        width: 33
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1788,7 +1788,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8c410c0ee200ae44ba0dc5303024210e
     internalID: 0
     vertices: []
     indices: 
@@ -1796,7 +1796,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       inimigos basicos e primeiro boss_0: -2698609010377988136
       inimigos basicos e primeiro boss_1: 7625920566572116090

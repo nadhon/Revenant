@@ -59,15 +59,6 @@ public class MoveEnemy : MonoBehaviour
         }
     }
 
-
-    public void Fix()
-    {
-        broken = false;
-
-        GetComponent<Rigidbody2D>().simulated = false;
-        Animator.SetTrigger("DEATH");
-    }
-
     private void Patrulhar()
     {
         if (pontosDoCaminho.Length == 0) return;

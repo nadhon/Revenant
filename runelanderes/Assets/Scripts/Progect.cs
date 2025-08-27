@@ -9,12 +9,7 @@ public class Progect : MonoBehaviour
     private Vector2 pontoInicial;
     private Rigidbody2D rb;
     private Animator anim;
-    private int dano;
-
-    public Progect(int dano)
-    {
-        this.dano = dano;
-    }
+    private int dano = 10;
 
     private bool isExploding = false;
 
@@ -53,7 +48,9 @@ public class Progect : MonoBehaviour
 
         if (enemy != null)
         {
-            enemy.Fix();
+            enemy.TakeDamage(dano);
+            anim.SetBool("EXPLOSION", true);
+            Destroy(gameObject, 0.5f); // Destroy after animation plays
         }
         else if (other.CompareTag("Wall") || other.CompareTag("ground"))
         {
