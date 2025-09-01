@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20ToolKit/PauseDisplay.uss?fileID=7433441132597879392&amp;guid=0f6b2fb81bed0a643810eeaf72deabd8&amp;type=3#PauseDisplay" />
+    <ui:VisualElement style="background-image: url(&quot;project://database/Assets/GAME/Maps/Player%20Hud.png?fileID=8732228589810646106&amp;guid=57bddd134eae2b1498fac65a7718086e&amp;type=3#Player Hud_9&quot;); height: 284px; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label text="Pause" style="height: 284px; font-size: 72px; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

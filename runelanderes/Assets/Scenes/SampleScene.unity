@@ -15887,7 +15887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1045623276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18322,6 +18322,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0557ed09e04ef2249bbd3bc8dfee2dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1599679633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599679635}
+  - component: {fileID: 1599679634}
+  m_Layer: 5
+  m_Name: PauseDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1599679634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599679633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 87a212358c412ce4597660f02259ad4f, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: d6d3c2025f5164840b064ac41bf8d3d5, type: 3}
+  m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+--- !u!4 &1599679635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599679633}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -40.69541, y: 7.71024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699087181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7892460572422052911, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
@@ -35972,6 +36023,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 161042094}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: PauseDisplay
+      value: 
+      objectReference: {fileID: 1599679633}
+    - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: TimeInvincible
       value: 1
       objectReference: {fileID: 0}
@@ -36263,3 +36318,4 @@ SceneRoots:
   - {fileID: 3354926906683708250}
   - {fileID: 532255420}
   - {fileID: 217854701}
+  - {fileID: 1599679635}

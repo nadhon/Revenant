@@ -12,6 +12,7 @@ TagManager:
   - Collect
   - Coin
   - NPC
+  - UI
   layers:
   - Default
   - TransparentFX

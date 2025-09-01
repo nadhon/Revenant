@@ -13,7 +13,6 @@ public class PlayerPlatformer : MonoBehaviour
     public PlayerInputActions PlayerInputActions { get; private set; }
     [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private Transform groundCheck;
-
     [SerializeField] private LayerMask groundLayer;
 
     [Header("Jumping ")]
@@ -49,6 +48,10 @@ public class PlayerPlatformer : MonoBehaviour
 
     private bool isDead = false;
 
+    public GameObject PauseDisplay;
+    private InputAction m_pauseActionUI;
+    private InputAction m_pauseActionPlayer;
+
     private void Awake()
     {
         PlayerInputActions = new PlayerInputActions();
@@ -58,6 +61,9 @@ public class PlayerPlatformer : MonoBehaviour
         {
             Debug.LogError("Ground Check Transform is not assigned in the PlayerPlatformer script.");
         }
+        m_pauseActionUI = PlayerInputActions.FindAction("Player/Pause");
+        m_pauseActionPlayer = PlayerInputActions.FindAction("Player/Pause");
+        
     }
 
     void Start()
@@ -78,12 +84,13 @@ public class PlayerPlatformer : MonoBehaviour
         PlayerInputActions.Player.Crouch.canceled += ctx => isCrouching = false;
         PlayerInputActions.Player.Ataque.performed += ctx => isAttacking = true;
         PlayerInputActions.Player.Interaction.performed += ctx => talkAction = true;
-
+        PlayerInputActions.Player.Pause.performed += ctx => DisplayPauseMenu("Player");
         PlayerInputActions.Player.Enable();
     }
 
     private void OnDisable()
     {
+        PlayerInputActions.Player.Pause.performed -= ctx => DisplayPauseMenu("Player");
         PlayerInputActions.Player.Jump.performed -= ctx => isJumping = false;
         PlayerInputActions.Player.Ataque.performed -= ctx => isAttacking = true;
         PlayerInputActions.Player.Interaction.performed -= ctx => talkAction = false;
@@ -108,9 +115,29 @@ public class PlayerPlatformer : MonoBehaviour
             FindFriend();
             talkAction = false;
         }
-       
+       DisplayPauseMenu("Player");
 
 
+    }
+
+
+    private void DisplayPauseMenu(string actionMap)
+    {
+        if (m_pauseActionPlayer.WasPerformedThisFrame())
+        {
+            if (PauseDisplay.activeInHierarchy)
+            {
+                PauseDisplay.SetActive(false);
+                PlayerInputActions.FindAction("Player").Disable();
+                PlayerInputActions.FindAction("UI").Enable();
+            }
+            else if (m_pauseActionUI.WasPerformedThisFrame())
+            {
+                PauseDisplay.SetActive(true);
+                PlayerInputActions.FindAction("UI").Disable();
+                PlayerInputActions.FindAction("Player").Enable();
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -140,7 +167,7 @@ public class PlayerPlatformer : MonoBehaviour
         }
         // Pular
 
-            isJumping = false;
+        isJumping = false;
 
         //Agachamento
         if (isCrouching)
@@ -148,9 +175,9 @@ public class PlayerPlatformer : MonoBehaviour
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             playerAnimator.SetBool("CROUCH", true);
 
-            
+
         }
-            isCrouching = false;
+        isCrouching = false;
         //Ataque
         if (isAttacking)
         {

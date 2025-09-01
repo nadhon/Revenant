@@ -81,6 +81,7 @@
     <None Include="Assets\UI ToolKit\NPCDialogue.uss" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\UI ToolKit\PauseDisplay.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -99,6 +100,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\UI ToolKit\HealthBar.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\UI ToolKit\PauseDisplay.uss" />
     <None Include="Assets\UI ToolKit\lifeBar.uss" />
     <None Include="Assets\GAME\SoundEfects\Creditos.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />

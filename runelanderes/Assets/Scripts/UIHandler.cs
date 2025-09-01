@@ -7,6 +7,7 @@ public class UIHandler : MonoBehaviour
     private VisualElement m_HealthBar;
     public float displayTime = 4.0f;
     private VisualElement m_NonPlayerDialogue;
+    
     private float m_TimerDisplay;
 
     private void Awake()
@@ -19,7 +20,6 @@ public class UIHandler : MonoBehaviour
         UIDocument uiDocument = GetComponent<UIDocument>();
         m_HealthBar = uiDocument.rootVisualElement.Q<VisualElement>("HealthBar");
         SetHealthValue(1.0f);
-        Debug.Log("Achei o erro");
         m_NonPlayerDialogue = uiDocument.rootVisualElement.Q<VisualElement>("NPCDialogue");
         m_NonPlayerDialogue.style.display = DisplayStyle.None;
         m_TimerDisplay = -1.0f;
