@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0d0fb0341d16c6846b5933390b5a3ba0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 278598
+  packageName: Chinese Fantasy Music
+  packageVersion: 1.0
+  assetPath: Assets/BiteMe Games/Chinese Music/Scripts/DemoScene.cs
+  uploadId: 647736

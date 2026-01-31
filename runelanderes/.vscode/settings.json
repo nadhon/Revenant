@@ -52,6 +52,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "runelanderes.sln",
+    "dotnet.defaultSolution": "runelanderes.slnx",
     "github.copilot.chat.localeOverride": "pt-br"
 }
