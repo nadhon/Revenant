@@ -23,7 +23,7 @@ public class ColletavadeVida : MonoBehaviour
       player.ChangeHealth(1);
       Destroy(gameObject);
     }
-    player.PlayerSound(CollectedClip);
+  
   }
 
 }
