@@ -30,10 +30,10 @@ public class Thunderwave : Spell
         {
             if (hit.CompareTag("Player"))
                 {
-                    var player = hit.GetComponent<PlayerPlatformer>();
+                    var player = hit.GetComponent<PlayerHealth>();
                     if (player != null)
                     {
-                        player.ChangeHealth(damage);
+                        player.TakeDamage(damage);
                     }
                     Rigidbody2D rb = hit.GetComponent<Rigidbody2D>();
                     if (rb != null)

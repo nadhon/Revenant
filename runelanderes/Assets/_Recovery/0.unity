@@ -18406,11 +18406,20 @@ MonoBehaviour:
   prefab: {fileID: 1042586191072822706, guid: 5884fb238a5c7d24fbcfb9718ebfeee0, type: 3}
   firePoint: {fileID: 1314599627}
   timeBetweenShots: 0.5
---- !u!82 &1699087198 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 495454067804434099, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
-  m_PrefabInstance: {fileID: 8088669463680385704}
+--- !u!114 &1699087206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699087181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687a7d729721c33dfbb3c4cac5497a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  MaxVida: 100
+  currentVida: 100
 --- !u!1 &1725258804
 GameObject:
   m_ObjectHideFlags: 0
@@ -36022,6 +36031,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1691142366358135384, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: m_Size.x
+      value: 1.112381
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691142366358135384, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: m_Size.y
+      value: 5.326725
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691142366358135384, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.2231369
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691142366358135384, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.39601374
+      objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: MaxVida
       value: 6
@@ -36041,7 +36066,7 @@ PrefabInstance:
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: audioSource
       value: 
-      objectReference: {fileID: 1699087198}
+      objectReference: {fileID: 0}
     - target: {fileID: 3412350100534168664, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: groundCheck
       value: 
@@ -36307,7 +36332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8351194871790316155, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.10000305
+      value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8351194871790316155, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.y
@@ -36320,6 +36345,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7892460572422052911, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1699087197}
+    - targetCorrespondingSourceObject: {fileID: 7892460572422052911, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1699087206}
   m_SourcePrefab: {fileID: 100100000, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -23,6 +23,7 @@ public class EnemyBulletScript : MonoBehaviour
 
         float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
         rb.rotation = rot;
+        pontoInicial = transform.position;
     }
 
 
@@ -32,10 +33,27 @@ public class EnemyBulletScript : MonoBehaviour
         if (distanciaPercorrida > 10f)
         {
             transform.localScale = new Vector3(0, 0, 0);
+            Destroy(gameObject);
         }
         else
         {
             transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            var playerHealth = collision.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+            }
+            Destroy(gameObject);
+        }
+        else if (!collision.CompareTag("Enemy") && !collision.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
         }
     }
 }

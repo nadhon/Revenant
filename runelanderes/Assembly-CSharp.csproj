@@ -71,6 +71,7 @@
     <Compile Include="Assets/Joystick Pack/Examples/JoystickSetterExample.cs" />
     <Compile Include="Assets/Scripts/UIHandler.cs" />
     <Compile Include="Assets/Scripts/NonPlayerCharacter.cs" />
+    <Compile Include="Assets/Scripts/Controller/PlayerHealth.cs" />
     <Compile Include="Assets/Scripts/CollectableItemData.cs" />
     <Compile Include="Assets/Scripts/2pontoPathrolEnemy.cs" />
     <Compile Include="Assets/Scripts/EnemyBulletScript.cs" />

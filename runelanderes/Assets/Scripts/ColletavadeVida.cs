@@ -8,22 +8,16 @@ public class ColletavadeVida : MonoBehaviour
 {
   public AudioClip collectedClip;
 
-    public AudioClip CollectedClip { get; private set; }
-
     void OnTriggerEnter2D(Collider2D collision)
   {
-    PlayerPlatformer player = collision.GetComponent<PlayerPlatformer>();
+    if (!collision.CompareTag("Player")) return;
 
-    if (player != null && player.VidaAtual < player.MaxVida)
-      {
-        player.ChangeHealth(+1);
-        Destroy(gameObject);
-      }
+    if (collision.TryGetComponent<PlayerHealth>(out var health))
     {
-      player.ChangeHealth(1);
-      Destroy(gameObject);
+        health.TakeDamage(-20);
+        
+        AudioSource.PlayClipAtPoint(collectedClip, transform.position);
+        Destroy(gameObject);
     }
-  
   }
-
 }

@@ -43,10 +43,11 @@ public class Patrulhadeinimigo : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerPlatformer player = collision.gameObject.GetComponent<PlayerPlatformer>();
-        if (player != null)
+        if(!collision.CompareTag("Player")) return;
+    
+        if (collision.TryGetComponent<PlayerHealth>(out var health))
         {
-            player.ChangeHealth(-1);
+            health.TakeDamage(10);
         }
     }
     void OnCollisionEnter(Collision collision)

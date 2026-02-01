@@ -30,9 +30,7 @@ public class PlayerPlatformer : MonoBehaviour
     private bool isAttacking;
     public bool talkAction;
 
-    [SerializeField] private AudioSource audioSource;
-
-    Animator playerAnimator;
+      Animator playerAnimator;
 
     private Vector3 originalScale;
 
@@ -45,8 +43,6 @@ public class PlayerPlatformer : MonoBehaviour
     public float TimeInvincible = 1f; // Tempo de invencibilidade após receber dano
     private bool isInvincible = false;
     private float damageCooldown = 0f; // Tempo restante de invencibilidade
-
-    private bool isDead = false;
 
     public GameObject PauseDisplay;
     private InputAction m_pauseActionUI;
@@ -72,7 +68,6 @@ public class PlayerPlatformer : MonoBehaviour
         originalScale = transform.localScale;
 
         VidaAtual = MaxVida;
-        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnEnable()
@@ -158,7 +153,6 @@ public class PlayerPlatformer : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             playerAnimator.SetTrigger("JUMP");
-            Debug.Log("Pulei otario");
             isJumping = false;
         }
         if (isGrounded && rb.linearVelocity.y <= 0.01f)
@@ -199,39 +193,14 @@ public class PlayerPlatformer : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("enemy") && !isDead)
+        if (!collision.CompareTag("Enemy")) return;
+        if (collision.TryGetComponent<PlayerHealth>(out var health))
         {
-            playerAnimator.SetBool("HIT", true);
-            MoveEnemy enemy = collision.GetComponent<MoveEnemy>();
-            if (enemy != null)
-            {
-                ChangeHealth(-enemy.Damage);
-            }
+            health.TakeDamage(1);
         }
     }
 
-    public void ChangeHealth(int amount)
-    {
-        VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
-        if (amount < 0)
-        {
-            if (isInvincible)
-            {
-                return;
-            }
-            isInvincible = true;
-            damageCooldown = TimeInvincible;
-            if (VidaAtual <= 0)
-            {
-                isDead = true;
-                playerAnimator.SetTrigger("DEATH");
-                GetComponent<PlayerPlatformer>().enabled = false;
-            }
-
-        }
-        VidaAtual = Mathf.Clamp(VidaAtual + amount, 0, MaxVida);
-        UIHandler.instance.SetHealthValue(VidaAtual / (float)MaxVida);
-    }
+    
     void FindFriend()
     {
         RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, moveInput, 1.5f, LayerMask.GetMask("NPC"));
@@ -244,18 +213,6 @@ public class PlayerPlatformer : MonoBehaviour
             }
 
         }
-    }
-    public void PlaySound(AudioClip walk)
-    {
-        if (moveInput.x != 0 && !audioSource.isPlaying)
-        {
-            audioSource.PlayOneShot(walk);
-        }
-    }
-    
-    public void PlayerSound(AudioClip clip)
-    {
-        audioSource.PlayOneShot(clip);
     }
 
 }
