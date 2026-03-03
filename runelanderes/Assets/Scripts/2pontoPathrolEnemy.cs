@@ -53,6 +53,10 @@ public class MoveEnemy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerHealth health = collision.gameObject.GetComponent<PlayerHealth>();
+        if (!collision.gameObject.CompareTag("Player"))
+        {
+            TakeDamage(10);
+        }
         if (health != null)
         {
             health.TakeDamage(10);

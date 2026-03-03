@@ -11,17 +11,19 @@ public class PlayerPlatformer : MonoBehaviour
 {
     [Header("Movimentos")]
     public PlayerInputActions PlayerInputActions { get; private set; }
-    [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] protected float moveSpeed;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
     [Header("Jumping ")]
     [Tooltip("Speed height.")]
-    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] protected float jumpForce;
 
-
+    [Header("Character Data")]
+    [SerializeField] protected CharacterData characterData;
     public static UIHandler instance { get; private set; }
 
+    private PlayerHealth playerHealth;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isCrouching;
@@ -53,6 +55,7 @@ public class PlayerPlatformer : MonoBehaviour
         PlayerInputActions = new PlayerInputActions();
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        playerHealth = GetComponent<PlayerHealth>();
         if (groundCheck == null)
         {
             Debug.LogError("Ground Check Transform is not assigned in the PlayerPlatformer script.");
@@ -66,6 +69,13 @@ public class PlayerPlatformer : MonoBehaviour
     {
         PlayerInputActions.Enable();
         originalScale = transform.localScale;
+
+        if(characterData != null)
+        {
+            moveSpeed = characterData.moveSpeed;
+            jumpForce = characterData.jumpForce;
+            MaxVida = characterData.maxHealth;
+        }
 
         VidaAtual = MaxVida;
     }
@@ -193,11 +203,9 @@ public class PlayerPlatformer : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Enemy")) return;
-        if (collision.TryGetComponent<PlayerHealth>(out var health))
-        {
-            health.TakeDamage(1);
-        }
+        if (!collision.CompareTag("enemy")) return;
+        
+        playerHealth.TakeDamage(1);
     }
 
     

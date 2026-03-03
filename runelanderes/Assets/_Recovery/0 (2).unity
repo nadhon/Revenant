@@ -1748,7 +1748,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291159317}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
@@ -36287,24 +36287,12 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.51195246
-      objectReference: {fileID: 0}
-    - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.51195246
-      objectReference: {fileID: 0}
-    - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.51195246
-      objectReference: {fileID: 0}
-    - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.26
+      value: 26.8
       objectReference: {fileID: 0}
     - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.444
+      value: 7.9
       objectReference: {fileID: 0}
     - target: {fileID: 7141332863562973166, guid: 593da4ad3223ed9439cb753f0691dfec, type: 3}
       propertyPath: m_LocalPosition.z
